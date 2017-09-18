@@ -1,0 +1,621 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the OCDS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OCDS 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-31 15:04+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: Russian (https://www.transifex.com/OpenDataServices/teams/59224/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../standard/docs/en/support/governance.md:0
+msgid "Governance"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:3
+msgid ""
+"The Open Contracting Data Standard (OCDS) has many stakeholders: governments"
+" (procuring entities, monitoring & oversight authorities, project managers "
+"and policy makers), the private sector, and civil society organizations. The"
+" needs and interests of these stakeholders, as publishers and users of the "
+"data, are varied. As OCDS develops over time, with updated versions and new "
+"features, it is important that a diverse group of stakeholders are engaged "
+"in the process."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:5
+msgid "This document sets out the revision processes for OCDS."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:0
+msgid "Overview"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:9
+msgid ""
+"OCDS was initially developed through a year long iterative process, "
+"resulting in version 1.0 in November 2014. Over 2015/16 many organizations "
+"have been piloting use of the standard."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:11
+msgid ""
+"In 2016, we are working towards a first revised version of the standard. "
+"This is intended to fix a number of bugs identified through wider adoption "
+"of the standard over recent months, and will add a number of features which "
+"did not make it into 1.0."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:13
+msgid ""
+"This document outlines a process for management of changes to OCDS during "
+"the move from version 1.0 to 1.1."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:15
+msgid ""
+"Following this revision process, the Open Contracting Partnership will "
+"evaluate either:"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:17
+msgid "Continuing to operate a self-managed revision process;"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:19
+msgid ""
+"Submitting OCDS into a formal standards process, such as W3C community "
+"group, OASIS or other body;"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:21
+msgid ""
+"We welcome views on this approach of short-term self-managed revisions, "
+"followed by exploration of formal standards processes."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:0
+msgid "Stewardship and governance"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:25
+msgid ""
+"The [Open Contracting Partnership (OCP)](http://www.open-contracting.org) "
+"was established as an independent non-profit in early 2015 and acts as the "
+"lead steward of the Open Contracting Data Standard."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:27
+msgid ""
+"OCP is led by an executive director, and is supported by a multi-stakeholder"
+" advisory board with representation from governments, multilateral "
+"organizations, academia, NGOs and business."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:29
+msgid ""
+"As of February 2016, OCP is fiscally hosted by the [Fund for the City of New"
+" York](https://www.fcny.org/fcny/) (FCNY). Under the terms of this "
+"agreement, Intellectual Property is held by FCNY on behalf of OCP, but will "
+"transfer to any future legal entity hosting OCP."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:31
+msgid ""
+"The OCDS **technical team** work under contract to OCP, under the direction "
+"of the OCP Data & Engagement manager, providing a help desk service, and "
+"responsible for the day-to-day management of the standard documentation and "
+"validation tools. The technical team can be contacted via [data@open-"
+"contracting.org](mailto:data@open-contracting.org)"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:33
+msgid ""
+"In the pursuit of a consensus and **community-driven process**, subscribers "
+"to the [standard-discuss@open-contracting.org](mailto:standard-discuss@open-"
+"contracting.org) (Join by sending an email to [standard-discuss+subscribe"
+"@open-contracting.org](standard-discuss+subscribe@open-contracting.org)) "
+"discussion list and those watching and engaging with the [standard GitHub "
+"repository](https://github.com/open-contracting/standard) should be kept "
+"informed at all stages about planned revisions to OCDS, and should be "
+"offered clear and timely opportunities to input and comment."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:35
+msgid ""
+"To ensure the relevance, quality and effective implementation of proposed "
+"updates to the standard, new version releases will be subjected to a process"
+" of **peer review** with invited reviewers from publisher and user "
+"communities, and an open review process."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:37
+msgid ""
+"A lightweight **standard governance working group**, made up of "
+"representatives from OCP staff, the multi-stakeholder advisory board, and "
+"the technical team will be responsible for giving final approval to formal "
+"upgrades of the standard and ensuring the processes in this document have "
+"been properly carried out."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:0
+msgid "Intellectual property"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:41
+msgid ""
+"The Open Contracting Data Standard is the Intellectual Property of the Open "
+"Contracting Partnership. The schema is licensed under the **[Apache 2.0 "
+"License](http://www.apache.org/licenses/LICENSE-2.0)** license, with "
+"accompanying documentation under a **[Creative Commons Attribution 4.0 "
+"International license](https://creativecommons.org/licenses/by/4.0/)** where"
+" stated."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:43
+msgid ""
+"Contributors to the standard agree to transfer any copyright in their "
+"contributions to the Open Contracting Partnership (via its fiscal sponsor) "
+"through a contributor agreement process, in order that those contributions "
+"are held in trust as part of the standard."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:45
+msgid ""
+"No content infringing upon third-party Intellectual Property Rights will be "
+"included in the standard."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:0
+msgid "Governance principles"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:49
+msgid ""
+"We are committed to the [Open Stand principles](https://open-stand.org"
+"/about-us/principles/) for standards development. The Open Contracting Data "
+"Standard will be developed with:"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:51
+msgid ""
+"**Due process.** Decisions made with equity and fairness among participants."
+" Through an open process for submitting issues, extensions and requests for "
+"updates, no one party will dominate or guide standard development. All "
+"processes will be transparent and opportunities will exist to appeal "
+"decisions. Processes for periodic standards review and updating are well "
+"defined in this document."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:53
+msgid ""
+"**Broad consensus.** The process will allow for all views to be considered "
+"and addressed, such that agreement can be found across a range of interests."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:55
+msgid ""
+"**Transparency.** We will provide advance public notice of proposed "
+"standards development activities, the scope of work to be undertaken, and "
+"conditions for participation. Easily accessible records of decisions and the"
+" materials used in reaching those decisions will be provided. Public comment"
+" periods will be provided before final standards approval and adoption."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:57
+msgid ""
+"**Balance.** Standards activities will not exclusively dominated by any "
+"particular person, company or interest group."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:59
+msgid ""
+"**Openness.** The Open Contracting Data Standard processes are open to all "
+"interested and informed parties."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:61
+msgid ""
+"In the future, the Open Contracting Data Standard may be submitted to a "
+"formal standardization body, such as the World Wide Web Consortium, or "
+"OASIS. Before such a decision is made, a model of community-driven "
+"governance shall be established based on an open and consensus-based "
+"processes for updating the standard."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:0
+msgid "Versioning and upgrade process"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:65
+msgid ""
+"Over time, changes will be needed to the standard, including addition of new"
+" codes and fields, and occasionally involving changes to existing fields and"
+" structures."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:67
+msgid "The revision process should ensure:"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:69
+msgid ""
+"The consequences of any change for different stakeholders are identified and"
+" considered;"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:71
+msgid ""
+"It is clear why changes are needed, and that there is broad support for any "
+"proposed changes;"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:73
+msgid ""
+"Changes are easy to identify and are transparent, and publishers, users and "
+"intermediaries have clear documentation to allow them to update their data "
+"and tools;"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:75
+msgid ""
+"Changes to the OCDS schema should be made periodically, with the version "
+"number of the standard incremented to indicate that changes have been made, "
+"and a changelog maintained."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:0
+msgid "Versions"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:79
+msgid ""
+"Distinct **branches** of the standard will be maintained within GitHub for "
+"each version."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:81
+msgid "Branches can be in one of two states:"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:83
+msgid ""
+"**Development** - indicated by a -dev suffix (e.g. 1.1-dev) Both schema and "
+"documentation on a development branch can be updated and should only be "
+"implemented on an experimental basis."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:86
+msgid ""
+"**Live** - with no suffix ( e.g. 1.0) Only documentation updates are "
+"permitted on a live branch. All documentation changes must be reviewed to "
+"ensure they do not make any changes to the meaning of the standard."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:89
+msgid "Semantic Versioning practices will be used to distinguish between:"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:91
+msgid "**Major versions** which make backwards-incompatible API changes"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:93
+msgid ""
+"**Minor** **versions** which add functionality in a backwards-compatible "
+"manner"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:95
+msgid "These are captured by a version number in the format MAJOR.MINOR"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:0
+msgid "Revision process"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:99
+msgid ""
+"To release a new minor or major version upgrade will involve a number of "
+"stages outlined in the flowchart below, and described in more depth in the "
+"following sections."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:101
+msgid "![image alt text](../../../assets/upgrade_process_feb_2016.png)"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:103
+msgid "**General principles:**"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:105
+msgid ""
+"**Publicity:** All stages of the revision process will be announced via the "
+"standard-discuss mailing list, and through GitHub issues. These are the "
+"formal channels for notification during the process."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:107
+msgid ""
+"**Consensus:** All processes should aim towards gaining community consensus "
+"for changes."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:109
+msgid ""
+"The technical team are responsible for generating key documentation during "
+"the process, but should always be guided by community consensus, submitting "
+"all decisions for discussion."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:111
+msgid ""
+"**Appeal:** Any party may appeal against decisions made during the process "
+"by writing to the standard governance working group (address tbc.). The "
+"working group has the authority to reject proposed revisions on the standard"
+" in response to appeals."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:0
+msgid "Proposals"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:115
+msgid ""
+"Changes to OCDS can be proposed by anyone at any point via the public, "
+"online, [standard issue tracker](https://github.com/open-"
+"contracting/standard/issues) either as issues for discussion, or pull "
+"requests with a clear description of the proposed change."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:117
+msgid ""
+"Contributors are encouraged to raise discussions prior to pull requests to "
+"seek consensus on proposed changes."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:119
+msgid "Changes may be proposed as:"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:121
+msgid "**Extensions** - which add new features to the standard."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:123
+msgid "**Changes** - such as updated field definitions or codelist entries."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:125
+msgid ""
+"If there are at least two parties interested in using an extension, and "
+"following discussion of the extension draft, then it may be displayed in the"
+" current version of the documentation as an ‘experimental feature’."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:0
+msgid "Prioritization"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:129
+msgid ""
+"The technical team, with reference to community views, identify change "
+"proposals and extensions which should be considered for adoption in the next"
+" version of the standard, assigning these to milestones in the issue tracker"
+" where they are open for discussion."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:131
+msgid ""
+"Periodically, at the start of a revision process a cut-off date for "
+"proposals will be announced  with at least two weeks notice. After that date"
+" a prioritized list of updates is produced. Any new proposed extensions or "
+"changes received after this period may not be considered until the next "
+"prioritization phase."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:0
+msgid "Prioritization review"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:135
+msgid ""
+"The list is shared for feedback, with at least a two-week window for "
+"discussion."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:137
+msgid ""
+"Based on discussions, a final list is then proposed by the technical team "
+"with all the issues that will be taken forward into the rest of the process."
+" A proposals that has made it this far may or may not make it into the final"
+" upgrade. As the proposal is worked into final concrete examples and schema "
+"changes further issues may arise."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:0
+msgid "Development & docs"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:141
+msgid ""
+"The technical team, working with community members, will work on a "
+"development branch to prepare updates to the schema, documentation and "
+"codelists, according to the prioritized list."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:143
+msgid ""
+"This stage is likely to involve broad community engagement and discussion of"
+" specific decisions through GitHub issues."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:145
+msgid ""
+"At the point where all open issues are suitably addressed, the development "
+"branch can be submitted for peer review."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:0
+msgid "Peer-review"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:149
+msgid ""
+"The updated schema, documentation along with a changelog and narrative "
+"description of the changes will be released for peer-review."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:151
+msgid ""
+"A group of invited reviewers, representing different stakeholders, and "
+"including data publishers and users, will be asked to complete a full review"
+" of the changes, and to submit:"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:153
+msgid ""
+"A judgment on whether the overall upgrade, and/or specific changes should be"
+" **accepted**, **accepted with minor changes**, **substantially revised**, "
+"or **rejected**."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:155
+msgid "Comments on each request for revisions or rejection."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:157
+msgid ""
+"All reviews, with reviewer names, will be published. Community members may "
+"also submit their own reviews of the whole revision, or specific elements. "
+"The minimum period for peer-review is one month."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:0
+msgid "Revisions"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:161
+msgid ""
+"The technical team, with reference to the working group as appropriate, "
+"should evaluate reviews, and decide whether the whole upgrade, or specific "
+"features thereof, need to be revised, rejected or postponed to future "
+"processes."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:163
+msgid ""
+"If only minor changes are suggested, then the revised standard can be "
+"submitted back to reviewers for a brief review period of at least two weeks."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:165
+msgid ""
+"If major changes are required, then a longer follow up review process of at "
+"least one month should be allowed for."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:0
+msgid "Release"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:169
+msgid ""
+"Once all reviewer comments have been addressed to the satisfaction of the "
+"reviewer in question, then the updated version of the standard should be "
+"submitted to the **standard governance working group** for final approval, "
+"along with a short report of the process."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:171
+msgid ""
+"Following **working group** approval, the revision branch can be set to "
+"live."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:0
+msgid "Deprecation policy"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:175
+msgid ""
+"If a term (a class or property) is scheduled to be renamed or removed from "
+"the specification as a result of the revision process, the next minor "
+"release of the specification must "
+"[deprecate](https://en.wikipedia.org/wiki/Deprecation) the term within the "
+"schema, and the following major release must rename or remove the term from "
+"the schema, making the term obsolete. Implementations may use deprecated "
+"terms, but will receive warnings from the OCDS validator described below. "
+"Implementations may not use obsolete terms, and will receive errors from the"
+" OCDS validator."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:0
+msgid "Support policy"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:179
+msgid ""
+"Support will be offered for one prior version of the standard. Support for "
+"any earlier versions than this will be ended when a new version is released."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:181
+msgid ""
+"For example, when 1.1 is the latest release, 1.0 will be supported in the "
+"validator and other tooling. When 1.2 is released, support for 1.0 will end."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:183
+msgid ""
+"Publishers are encouraged to review each new version when it released, and "
+"to consider how they might adopt new features."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:185
+msgid ""
+"Publishers should aim to move to a new **major** version within 18 months of"
+" its release."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:0
+msgid "Definitions & procedures"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:189
+msgid "**Stakeholder**"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:191
+msgid ""
+"Anyone who is a current or potential publisher or user of the standard can "
+"be considered a stakeholder. When engaging with stakeholders, attention "
+"should be paid to representation of both publishers and users; "
+"representation of public and private sectors and civil society; and broad "
+"geographical representation."
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:193
+msgid "**Consensus**"
+msgstr ""
+
+#: ../../standard/docs/en/support/governance.md:195
+msgid ""
+"\"The principle of consensus has its origins in the desire to achieve the "
+"general acceptance and application of a Standard within its intended sphere "
+"of influence. This entails trying to ensure that the interests of all those "
+"likely to be affected by it are taken into account, and that individual "
+"concerns are carefully and fairly balanced against the wider public "
+"interest.\" [BSI, 2012](http://www.bsigroup.com/Documents/about-bsi/NSB/BSI-"
+"pocket-guide-to-standards-development-UK-EN.pdf)"
+msgstr ""

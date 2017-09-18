@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the OCDS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OCDS 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-31 15:04+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Maksym Chebotarov <m_chebotariov@yahoo.com>, 2017\n"
+"Language-Team: Russian (https://www.transifex.com/OpenDataServices/teams/59224/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../standard/docs/en/extensions/community.md:0
+msgid "Community extensions directory"
+msgstr ""
+
+#: ../../standard/docs/en/extensions/community.md:3
+msgid ""
+"These extensions are maintained outside the standard development cycle. They"
+" are [registered on GitHub](https://github.com/open-"
+"contracting/extension_registry). If you think your extension belongs there "
+"please make a pull request to that repository."
+msgstr ""
+
+#: ../../standard/docs/en/extensions/community.md:6
+msgid "**Community extensions**"
+msgstr ""
+
+#: ../../standard/Extension registry:1
+msgid "Extension"
+msgstr ""
+
+#: ../../standard/Extension registry:1
+msgid "Description"
+msgstr "Описание"
+
+#: ../../standard/Extension registry:1
+msgid "Category"
+msgstr ""
+
+#: ../../standard/Extension registry:1
+msgid "Extension URL"
+msgstr ""
