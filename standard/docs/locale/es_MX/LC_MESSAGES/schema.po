@@ -1,0 +1,3150 @@
+# Translations template for PROJECT.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-10-18 17:53+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Unidad de Política de Contrataciones Públicas <abonilla@funcionpublica.gob.mx>, 2017\n"
+"Language-Team: Spanish (Mexico) (https://www.transifex.com/OpenDataServices/teams/59224/es_MX/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+"Language: es_MX\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. /title
+#: schema/record-package-schema.json:1
+msgid "Schema for an Open Contracting Record package"
+msgstr "Esquema para un paquete de registro de contratación abierta."
+
+#. /description
+#: schema/record-package-schema.json:1
+msgid ""
+"The record package contains a list of records along with some publishing "
+"metadata. The records pull together all the releases under a single Open "
+"Contracting ID and compile them into the latest version of the information "
+"along with the history of any data changes."
+msgstr ""
+"El paquete de registros contiene una lista de éstos con algunos metadatos de"
+" publicación. Los registros reúnen todas las versiones bajo un único ID de "
+"contratación abierta y las compila en la última versión de la información "
+"junto con el historial de los cambios de datos."
+
+#. /properties/uri/title
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+msgid "Package identifier"
+msgstr "Identificador del paquete."
+
+#. /properties/uri/description
+#: schema/record-package-schema.json:1
+msgid "The URI of this package that identifies it uniquely in the world."
+msgstr "El URI de este paquete que lo identifica como único en el mundo."
+
+#. /properties/version/title
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+msgid "OCDS schema version"
+msgstr "Versión del esquema OCDS"
+
+#. /properties/version/description
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+msgid ""
+"The version of the OCDS schema used in this package, expressed as "
+"major.minor For example: 1.0 or 1.1"
+msgstr ""
+"La versión del esquema OCDS utilizada en este paquete, expresada como "
+"mayor.menor Por ejemplo: 1.0 o 1.1"
+
+#. /properties/extensions/title
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+msgid "OCDS extensions"
+msgstr "Extensiones OCDS"
+
+#. /properties/extensions/description
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+msgid ""
+"An array of OCDS extensions used in this package. Each entry should be a URL"
+" to the extension.json file for that extension."
+msgstr ""
+"Una serie de extensiones OCDS utilizadas en este paquete. Cada entrada debe "
+"ser una URL del archivo extensión .json para esa extensión."
+
+#. /properties/publisher/description
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+msgid "Information to uniquely identify the publisher of this package."
+msgstr ""
+"Información para identificar de forma exclusiva al editor de este paquete"
+
+#. /properties/publisher/properties/name/title
+#. /definitions/Item/properties/unit/properties/name/title
+#. /definitions/ContactPoint/properties/name/title
+#. /definitions/ItemUnversioned/properties/unit/properties/name/title
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid "Name"
+msgstr "Nombre"
+
+#. /properties/publisher/properties/name/description
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+msgid ""
+"The name of the organization or department responsible for publishing this "
+"data."
+msgstr ""
+"El nombre de la organización o departamento responsable de publicar estos "
+"datos."
+
+#. /properties/publisher/properties/scheme/title
+#. /definitions/Item/properties/unit/properties/scheme/title
+#. /definitions/Classification/properties/scheme/title
+#. /definitions/Identifier/properties/scheme/title
+#. /definitions/RelatedProcess/properties/scheme/title
+#. /definitions/ItemUnversioned/properties/unit/properties/scheme/title
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid "Scheme"
+msgstr "Esquema"
+
+#. /properties/publisher/properties/scheme/description
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+msgid ""
+"The scheme that holds the unique identifiers used to identify the item being"
+" identified."
+msgstr ""
+"El esquema que contiene los identificadores únicos utilizados para "
+"identificar cada elemento."
+
+#. /properties/publisher/properties/uid/title
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+msgid "uid"
+msgstr "uid"
+
+#. /properties/publisher/properties/uid/description
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+msgid ""
+"The unique ID for this entity under the given ID scheme. Note the use of "
+"'uid' rather than 'id'. See issue #245."
+msgstr ""
+"El identificador único para esta entidad bajo el esquema de identificación "
+"dado. Observe el uso de 'uid' en lugar de 'id'. Ver la edición # 245."
+
+#. /properties/publisher/properties/uri/title
+#. /definitions/Item/properties/unit/properties/uri/title
+#. /definitions/Classification/properties/uri/title
+#. /definitions/Identifier/properties/uri/title
+#. /definitions/ItemUnversioned/properties/unit/properties/uri/title
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid "URI"
+msgstr "URI"
+
+#. /properties/publisher/properties/uri/description
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+msgid "A URI to identify the publisher."
+msgstr "Una URI para identificar el editor."
+
+#. /properties/license/title
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+msgid "License"
+msgstr "Licencia"
+
+#. /properties/license/description
+#: schema/record-package-schema.json:1
+msgid ""
+"A link to the license that applies to the data in this data package. [Open "
+"Definition Conformant](http://opendefinition.org/licenses/) licenses are "
+"strongly recommended. The canonical URI of the license should be used. "
+"Documents linked from this file may be under other license conditions."
+msgstr ""
+"Es altamente recomendable un enlace a la licencia que se aplica a los datos "
+"de este paquete de datos. [Open Definition Conformant] "
+"(http://opendefinition.org/licenses/). Debe usarse el URI canónico de la "
+"licencia. Los documentos enlazados desde este archivo pueden estar bajo "
+"otras condiciones de licenciamiento."
+
+#. /properties/publicationPolicy/title
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+msgid "Publication policy"
+msgstr "Política de publicación"
+
+#. /properties/publicationPolicy/description
+#: schema/record-package-schema.json:1
+msgid "A link to a document describing the publishers publication policy."
+msgstr ""
+"Enlace a un documento que describe la política de publicación de los "
+"editores."
+
+#. /properties/publishedDate/title
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+msgid "Published date"
+msgstr "Fecha en que se publicó"
+
+#. /properties/publishedDate/description
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+msgid ""
+"The date that this package was published. If this package is generated 'on "
+"demand', this date should reflect the date of the last change to the "
+"underlying contents of the package."
+msgstr ""
+"La fecha en que se publicó este paquete. Si este paquete se genera 'bajo "
+"demanda', esta fecha debe reflejar la fecha del último cambio en el "
+"contenido señalado del paquete."
+
+#. /properties/packages/title
+#: schema/record-package-schema.json:1
+msgid "Packages"
+msgstr "Paquetes"
+
+#. /properties/packages/description
+#: schema/record-package-schema.json:1
+msgid ""
+"A list of URIs of all the release packages that were used to create this "
+"record package."
+msgstr ""
+"Una lista de URI de todos los conjuntos de lanzamiento que se utilizaron "
+"para crear el conjunto de registros."
+
+#. /properties/records/title
+#: schema/record-package-schema.json:1
+msgid "Records"
+msgstr "Registros"
+
+#. /properties/records/description
+#: schema/record-package-schema.json:1
+msgid "The records for this data package."
+msgstr "Los registros del paquete de datos."
+
+#. /definitions/record/title
+#: schema/record-package-schema.json:1
+msgid "Record"
+msgstr "Registro"
+
+#. /definitions/record/properties/ocid/title
+#. /properties/ocid/title
+#: schema/record-package-schema.json:1 schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid "Open Contracting ID"
+msgstr "Identificador del procedimiento de contratación"
+
+#. /definitions/record/properties/ocid/description
+#: schema/record-package-schema.json:1
+msgid ""
+"A unique identifier that identifies the unique Open Contracting Process. For"
+" more information see: http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/getting_started/contracting_process/"
+msgstr ""
+"Un identificador único que identifica el proceso de contratación abierta. "
+"Para obtener más información, consulte: http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/getting_started/contracting_process/"
+
+#. /definitions/record/properties/releases/title
+#. /properties/releases/title
+#: schema/record-package-schema.json:1 schema/release-package-schema.json:1
+msgid "Releases"
+msgstr "Publicaciones"
+
+#. /definitions/record/properties/releases/description
+#: schema/record-package-schema.json:1
+msgid "An array of linking identifiers or releases"
+msgstr "Arreglo de identificadores de enlace o liberaciones."
+
+#. /definitions/record/properties/compiledRelease/title
+#: schema/record-package-schema.json:1
+msgid "Compiled release"
+msgstr "Liberación del compilado"
+
+#. /definitions/record/properties/compiledRelease/description
+#: schema/record-package-schema.json:1
+msgid ""
+"This is the latest version of all the contracting data, it has the same "
+"schema as an open contracting release."
+msgstr "Última versión de los datos de contratación."
+
+#. /definitions/record/properties/versionedRelease/title
+#: schema/record-package-schema.json:1
+msgid "Versioned release"
+msgstr "Liberación de versión"
+
+#. /definitions/record/properties/versionedRelease/description
+#: schema/record-package-schema.json:1
+msgid ""
+"This contains the history of the data in the compiledRecord. With all "
+"versions of the information and the release they came from."
+msgstr ""
+"Esto contiene el historial de los datos en el registro compilado. Con todas "
+"las versiones de la información y la liberación de la que provenían"
+
+#. /title
+#: schema/release-package-schema.json:1
+msgid "Schema for an Open Contracting Release Package"
+msgstr "Esquema para un paquete de registro de contratación"
+
+#. /description
+#: schema/release-package-schema.json:1
+msgid ""
+"Note that all releases within a release package must have a unique releaseID"
+" within this release package."
+msgstr ""
+"Tenga en cuenta que todas las versiones de un paquete deben tener un ID de "
+"liberación único dentro de este paquete de versión"
+
+#. /properties/uri/description
+#: schema/release-package-schema.json:1
+msgid ""
+"The URI of this package that identifies it uniquely in the world. "
+"Recommended practice is to use a dereferenceable URI, where a persistent "
+"copy of this package is available."
+msgstr ""
+"El URI de este paquete lo identifica como único en el mundo. La práctica "
+"recomendada es usar un URI con la que no sea referenciable donde está "
+"disponible una copia persistente de este paquete."
+
+#. /properties/publisher/title
+#: schema/release-package-schema.json:1
+msgid "Publisher"
+msgstr "Publicador"
+
+#. /properties/license/description
+#: schema/release-package-schema.json:1
+msgid ""
+"A link to the license that applies to the data in this package. A Public "
+"Domain Dedication or [Open Definition "
+"Conformant](http://opendefinition.org/licenses/) license is strongly "
+"recommended. The canonical URI of the license should be used. Documents "
+"linked from this file may be under other license conditions. "
+msgstr ""
+"Es recomendable un enlace a la licencia que se aplica a los datos de este "
+"paquete. Una licencia de dedicación de dominio público o [Open Definition "
+"Conformant] (http://opendefinition.org/licenses/) es muy recomendable. Debe "
+"usarse el URI canónico de la licencia. Los documentos enlazados desde este "
+"archivo pueden estar bajo otras condiciones de licencia."
+
+#. /properties/publicationPolicy/description
+#: schema/release-package-schema.json:1
+msgid ""
+"A link to a document describing the publishers [publication "
+"policy](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/implementation/publication_policy/)."
+msgstr ""
+"Un enlace al documento descrito por quienes lo publican  [publication "
+"policy](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/implementation/publication_policy/)."
+
+#. /title
+#: schema/release-schema.json:1
+msgid "Schema for an Open Contracting Release"
+msgstr "Liberación del esquema"
+
+#. /properties/ocid/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid ""
+"A globally unique identifier for this Open Contracting Process. Composed of "
+"a publisher prefix and an identifier for the contracting process. For more "
+"information see the [Open Contracting Identifier guidance](http://standard"
+".open-contracting.org/{{version}}/{{lang}}/schema/identifiers/)"
+msgstr ""
+"Un identificador único para este procedimiento de contratación abierto. Se "
+"compone de un prefijo del editor y un identificador para el procedimiento de"
+" contratación. Para obtener más información, consulte la guía [Open "
+"Contracting Identifier guidance](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/identifiers/)."
+
+#. /properties/id/title
+#: schema/release-schema.json:1
+msgid "Release ID"
+msgstr "Identificador de la publicación"
+
+#. /properties/id/description
+#: schema/release-schema.json:1
+msgid ""
+"An identifier for this particular release of information. A release "
+"identifier must be unique within the scope of its related contracting "
+"process (defined by a common ocid), and unique within any release package it"
+" appears in. A release identifier must not contain the # character."
+msgstr ""
+"Un identificador específico para la publicación de la información. El "
+"identificador de la publicación debe ser único dentro del alcance del "
+"procedimiento de contratación (definido por un ocid común) y único dentro de"
+" cualquier paquete de publicación en el que aparezca. Los identificadores de"
+" publicación no deben contener el carácter #."
+
+#. /properties/date/title
+#: schema/release-schema.json:1
+msgid "Release Date"
+msgstr "Fecha de publicación"
+
+#. /properties/date/description
+#: schema/release-schema.json:1
+msgid "The date this information was first released, or published."
+msgstr ""
+"La fecha en la que se realiza la publicación. Puede ser la misma o anterior "
+"a la fecha de publicación del objeto que lo contiene (release-package). Se "
+"utiliza para determinar el orden de precedencia de la versión más actual de "
+"la información. "
+
+#. /properties/tag/title
+#: schema/release-schema.json:1
+msgid "Release Tag"
+msgstr "Etiqueta de publicación"
+
+#. /properties/tag/description
+#: schema/release-schema.json:1
+msgid ""
+"One or more values from the [releaseTag codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#release-tag). Tags "
+"may be used to filter release and to understand the kind of information that"
+" a release might contain."
+msgstr ""
+"Uno o más valores de la lista de códigos [releaseTag "
+"codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#release-tag). Las "
+"etiquetas pueden utilizarse para filtrar la publicación y para comprender el"
+" tipo de información que puede contener una versión."
+
+#. /properties/initiationType/title
+#: schema/release-schema.json:1
+msgid "Initiation type"
+msgstr "Tipo de inicio"
+
+#. /properties/initiationType/description
+#: schema/release-schema.json:1
+msgid ""
+"String specifying the type of initiation process used for this contract, "
+"taken from the [initiationType](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#initiation-type) "
+"codelist. Currently only tender is supported."
+msgstr ""
+"Texto que especifica el tipo de iniciación utilizado para este "
+"procedimiento, tomado de la [initiationType](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#initiation-type) "
+"lista de códigos. Actualmente sólo se admite licitación."
+
+#. /properties/parties/title
+#: schema/release-schema.json:1
+msgid "Parties"
+msgstr "Integrantes"
+
+#. /properties/parties/description
+#: schema/release-schema.json:1
+msgid ""
+"Information on the parties (organizations, economic operators and other "
+"participants) who are involved in the contracting process and their roles, "
+"e.g. buyer, procuring entity, supplier etc. Organization references "
+"elsewhere in the schema are used to refer back to this entries in this list."
+msgstr ""
+"Información sobre los integrantes (dependencias, entidades, licitantes, "
+"proveedores, contratistas y otros participantes) en el procedimiento de "
+"contratación y sus funciones. Las referencias a las organizaciones "
+"establecidas en otras partes del esquema se utilizan para referirse a los "
+"participantes de esta lista."
+
+#. /properties/buyer/title
+#: schema/release-schema.json:1
+msgid "Buyer"
+msgstr "Comprador"
+
+#. /properties/buyer/description
+#: schema/release-schema.json:1
+msgid ""
+"The buyer is the entity whose budget will be used to purchase the goods. "
+"This may be different from the procuring entity who may be specified in the "
+"tender data."
+msgstr ""
+"El comprador es la institución pública que tiene asignado el presupuesto que"
+" se utilizará para el procedimiento de contratación. Éste puede ser "
+"diferente al área administrativa especificada en la etapa de licitación."
+
+#. /properties/planning/title
+#. /definitions/Planning/title
+#: schema/release-schema.json:1
+msgid "Planning"
+msgstr "Planeación"
+
+#. /properties/planning/description
+#: schema/release-schema.json:1
+msgid ""
+"Information from the planning phase of the contracting process. This "
+"includes information related to the process of deciding what to contract, "
+"when and how."
+msgstr ""
+"Información de la etapa de planeación del procedimiento de contratación. "
+"Considerar que, en una publicación de un procedimiento que se encuentra en "
+"planeación, es posible capturar información adicional -que no se encuentra "
+"en esta etapa- en los campos apropiados ubicados a través de las otras "
+"secciones del esquema. Esta información probablemente se refiera a "
+"estimaciones, por ejemplo 'TotalValue' del procedimiento de contratación."
+
+#. /properties/tender/title
+#. /definitions/Tender/title
+#: schema/release-schema.json:1
+msgid "Tender"
+msgstr "Licitación"
+
+#. /properties/tender/description
+#: schema/release-schema.json:1
+msgid "The activities undertaken in order to enter into a contract."
+msgstr "Actividades llevadas a cabo para celebrar una contratación."
+
+#. /properties/awards/title
+#: schema/release-schema.json:1
+msgid "Awards"
+msgstr "Adjudicaciones"
+
+#. /properties/awards/description
+#: schema/release-schema.json:1
+msgid ""
+"Information from the award phase of the contracting process. There may be "
+"more than one award per contracting process e.g. because the contract is "
+"split among different providers, or because it is a standing offer."
+msgstr ""
+"Información de la etapa de adjudicación del procedimiento de contratación. "
+"Puede haber más de una adjudicación por licitación, por ejemplo, porque se "
+"pueden adjudicar a varios proveedores."
+
+#. /properties/contracts/title
+#: schema/release-schema.json:1
+msgid "Contracts"
+msgstr "Contratos"
+
+#. /properties/contracts/description
+#: schema/release-schema.json:1
+msgid ""
+"Information from the contract creation phase of the procurement process."
+msgstr ""
+"Información de la etapa de contratación dentro del procedimiento de "
+"contratación."
+
+#. /properties/language/title
+#: schema/release-schema.json:1
+msgid "Release language"
+msgstr "Idioma de la publicación"
+
+#. /properties/language/description
+#: schema/release-schema.json:1
+msgid ""
+"Specifies the default language of the data using either two-letter "
+"[ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), or "
+"extended [BCP47 language tags](http://www.w3.org/International/articles"
+"/language-tags/). The use of lowercase two-letter codes from "
+"[ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) is "
+"strongly recommended."
+msgstr ""
+"Especifica el idioma predeterminado de los datos mediante la clasificación "
+"de dos letras "
+"[ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes),  o "
+"mediante una clasificación extendida de [BCP47 language "
+"tags](http://www.w3.org/International/articles/language-tags/). Se "
+"recomienda el uso de códigos de dos letras en minúsculas de la clasificación"
+" [ISO639-1] (https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)."
+
+#. /properties/relatedProcesses/description
+#: schema/release-schema.json:1
+msgid ""
+"If this process follows on from one or more prior process, represented under"
+" a separate open contracting identifier (ocid) then details of the related "
+"process can be provided here. This is commonly used to relate mini-"
+"competitions to their parent frameworks, full tenders to a pre-qualification"
+" phase, or individual tenders to a broad planning process."
+msgstr ""
+"Si este procedimiento viene de uno o más procedimientos previos, "
+"representados bajo identificadores de contratación abierta diferentes "
+"(ocid), entonces se pueden proporcionar detalles del procedimiento "
+"relacionado. Esto se utiliza comúnmente para relacionar mini-competiciones "
+"con sus marcos primarios, licitaciones completas a una fase de pre-"
+"evaluación, o licitaciones individuales a un proceso de planificación "
+"amplio."
+
+#. /properties/relatedProcesses/title
+#. /definitions/Contract/properties/relatedProcesses/title
+#: schema/release-schema.json:1
+msgid "Related processes"
+msgstr "Procedimientos relacionados"
+
+#. /definitions/Planning/description
+#: schema/release-schema.json:1
+msgid ""
+"Information from the planning phase of the contracting process. Note that "
+"many other fields may be filled in a planning release, in the appropriate "
+"fields in other schema sections, these would likely be estimates at this "
+"stage e.g. totalValue in tender"
+msgstr ""
+"Información de la etapa de planeación del procedimiento de contratación. "
+"Considerar que, en una publicación de un procedimiento que se encuentra en "
+"planeación, es posible capturar información adicional que no se encuentra en"
+" esta etapa en los campos apropiados ubicados a través de las otras "
+"secciones de esquema. Esta información probablemente se refiera a "
+"estimaciones, por ejemplo TotalValue del procedimiento de contratación."
+
+#. /definitions/Planning/properties/rationale/title
+#. /definitions/Amendment/properties/rationale/title
+#: schema/release-schema.json:1
+msgid "Rationale"
+msgstr "Justificación"
+
+#. /definitions/Planning/properties/rationale/description
+#: schema/release-schema.json:1
+msgid ""
+"The rationale for the procurement provided in free text. More detail can be "
+"provided in an attached document."
+msgstr ""
+"Justificación de la contratación. Razones por las cuales resulta necesaria "
+"la adquisición o arrendamiento de bienes muebles, la contratación de "
+"servicios, de obras públicas o de servicios relacionados con las mismas."
+
+#. /definitions/Planning/properties/documents/title
+#. /definitions/Tender/properties/documents/title
+#. /definitions/Award/properties/documents/title
+#. /definitions/Contract/properties/documents/title
+#. /definitions/Implementation/properties/documents/title
+#. /definitions/Milestone/properties/documents/title
+#: schema/release-schema.json:1
+msgid "Documents"
+msgstr "Documentos"
+
+#. /definitions/Planning/properties/documents/description
+#: schema/release-schema.json:1
+msgid "A list of documents related to the planning process."
+msgstr ""
+"Lista de documentos relacionados con la etapa de planeación del "
+"procedimiento de contratación."
+
+#. /definitions/Planning/properties/milestones/title
+#: schema/release-schema.json:1
+msgid "Planning milestones"
+msgstr "Hitos de la planeación"
+
+#. /definitions/Planning/properties/milestones/description
+#: schema/release-schema.json:1
+msgid "A list of milestones associated with the planning stage."
+msgstr "Una lista de hitos asociados con la etapa de planeación."
+
+#. /definitions/Tender/description
+#: schema/release-schema.json:1
+msgid ""
+"Data regarding tender process - publicly inviting prospective contractors to"
+" submit bids for evaluation and selecting a winner or winners."
+msgstr "Datos sobre el procedimiento de contratación"
+
+#. /definitions/Tender/properties/id/title
+#: schema/release-schema.json:1
+msgid "Tender ID"
+msgstr "Identificador de la licitación"
+
+#. /definitions/Tender/properties/id/description
+#: schema/release-schema.json:1
+msgid ""
+"An identifier for this tender process. This may be the same as the ocid, or "
+"may be drawn from an internally held identifier for this tender."
+msgstr ""
+"Identificador de la licitación. \n"
+"En el caso de los procedimientos de contratación realizados a través de CompraNet, corresponde al código del expediente que asigna este sistema.\n"
+"En el caso de procedimientos de contratación financiados con recursos de Organismos Financieros Internacionales, respecto de los procedimientos de lista corta, comparación de precios y adjudicación directa, se señala el número de procedimiento que le asigne la dependencia o entidad correspondiente."
+
+#. /definitions/Tender/properties/title/title
+#: schema/release-schema.json:1
+msgid "Tender title"
+msgstr "Denominación de la licitación"
+
+#. /definitions/Tender/properties/title/description
+#: schema/release-schema.json:1
+msgid ""
+"A title for this tender. This will often be used by applications as a "
+"headline to attract interest, and to help analysts understand the nature of "
+"this procurement."
+msgstr ""
+"Denominación del procedimiento de contratación que las dependencias y entidades señalan en CompraNet, en su caso.\n"
+"En el caso de procedimientos de contratación financiados con recursos de Organismos Financieros Internacionales, respecto de los procedimientos de lista corta, comparación de precios y adjudicación directa, se señala la denominación del procedimiento que le asigne la dependencia o entidad correspondiente."
+
+#. /definitions/Tender/properties/description/title
+#: schema/release-schema.json:1
+msgid "Tender description"
+msgstr "Objeto del procedimiento de contratación"
+
+#. /definitions/Tender/properties/description/description
+#: schema/release-schema.json:1
+msgid ""
+"A summary description of the tender. This should complement structured "
+"information provided using the items array. Descriptions should be short and"
+" easy to read. Avoid using ALL CAPS. "
+msgstr "Objeto del procedimiento de contratación."
+
+#. /definitions/Tender/properties/status/title
+#: schema/release-schema.json:1
+msgid "Tender status"
+msgstr "Estatus del procedimiento de contratación"
+
+#. /definitions/Tender/properties/status/description
+#: schema/release-schema.json:1
+msgid ""
+"The current status of the tender based on the [tenderStatus "
+"codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#tender-status)"
+msgstr ""
+"El estado actual del procedimiento de contratación obtenido de la lista de "
+"códigos. [lista de códigos de licitación](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#tender-status)"
+
+#. /definitions/Tender/properties/procuringEntity/title
+#: schema/release-schema.json:1
+msgid "Procuring entity"
+msgstr "Entidad que realiza la contratación"
+
+#. /definitions/Tender/properties/procuringEntity/description
+#: schema/release-schema.json:1
+msgid ""
+"The entity managing the procurement. This may be different from the buyer "
+"who pays for, or uses, the items being procured."
+msgstr ""
+"Denominación del ente público que realiza el procedimiento de contratación."
+
+#. /definitions/Tender/properties/items/title
+#: schema/release-schema.json:1
+msgid "Items to be procured"
+msgstr "Ítems de la licitación"
+
+#. /definitions/Tender/properties/items/description
+#: schema/release-schema.json:1
+msgid ""
+"The goods and services to be purchased, broken into line items wherever "
+"possible. Items should not be duplicated, but a quantity of 2 specified "
+"instead."
+msgstr ""
+"Bienes, servicios u obra pública de la licitación. Los ítems no se deben "
+"duplicar, en su lugar se deberá especificar la cantidad, ejemplo: 3."
+
+#. /definitions/Tender/properties/value/title
+#. /definitions/Award/properties/value/title
+#. /definitions/Contract/properties/value/title
+#. /definitions/Transaction/properties/value/title
+#. /definitions/Item/properties/unit/properties/value/title
+#. /definitions/Value/title
+#. /definitions/ItemUnversioned/properties/unit/properties/value/title
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid "Value"
+msgstr "Valor"
+
+#. /definitions/Tender/properties/value/description
+#: schema/release-schema.json:1
+msgid ""
+"The total upper estimated value of the procurement. A negative value "
+"indicates that the contracting process may involve payments from the "
+"supplier to the buyer (commonly used in concession contracts)."
+msgstr ""
+"El valor estimado de la contratación sin impuestos incluidos. En caso de "
+"contrataciones abiertas, se señala el presupuesto máximo que podría "
+"ejercerse en la ejecución del contrato."
+
+#. /definitions/Tender/properties/minValue/title
+#: schema/release-schema.json:1
+msgid "Minimum value"
+msgstr "Valor mínimo del procedimiento de contratación"
+
+#. /definitions/Tender/properties/minValue/description
+#: schema/release-schema.json:1
+msgid ""
+"The minimum estimated value of the procurement.  A negative value indicates "
+"that the contracting process may involve payments from the supplier to the "
+"buyer (commonly used in concession contracts)."
+msgstr ""
+"El valor mínimo estimado de la contratación sin impuestos incluidos. En caso"
+" de contrataciones abiertas, se señala el presupuesto mínimo (que debería "
+"ejercerse en la ejecución del contrato)."
+
+#. /definitions/Tender/properties/procurementMethod/title
+#: schema/release-schema.json:1
+msgid "Procurement method"
+msgstr "Método de contratación"
+
+#. /definitions/Tender/properties/procurementMethod/description
+#: schema/release-schema.json:1
+msgid ""
+"Specify tendering method using the [method codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#method). This is a "
+"closed codelist. Local method types should be mapped to this list."
+msgstr ""
+"Especifica el método de contratación utilizando [method "
+"codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#method). Esta es una "
+"lista de códigos cerrada. Los tipos de procedimiento de contratación locales"
+" deberán relacionarse a uno de los valores de esta lista. La información más"
+" específica de los tipos de procedimiento de contratación locales, "
+"diferentes a los valores de la lista cerrada, deberán especificarse en el "
+"campo \"Detalles del tipo de procedimiento de contratación\"."
+
+#. /definitions/Tender/properties/procurementMethodDetails/title
+#: schema/release-schema.json:1
+msgid "Procurement method details"
+msgstr "Detalles del método de contratación"
+
+#. /definitions/Tender/properties/procurementMethodDetails/description
+#: schema/release-schema.json:1
+msgid ""
+"Additional detail on the procurement method used. This field may be used to "
+"provide the local name of the particular procurement method used."
+msgstr ""
+"Provee detalles adicionales sobre el método de contratación. Este campo "
+"puede ser utilizado para definir nombres locales del tipo de procedimiento "
+"de contratación que se utiliza."
+
+#. /definitions/Tender/properties/procurementMethodRationale/title
+#: schema/release-schema.json:1
+msgid "Procurement method rationale"
+msgstr "Justificación del método de contratación"
+
+#. /definitions/Tender/properties/procurementMethodRationale/description
+#: schema/release-schema.json:1
+msgid ""
+"Rationale for the chosen procurement method. This is especially important to"
+" provide a justification in the case of limited tenders or direct awards."
+msgstr ""
+"Justificación del método de contratación. Esto es especialmente importante para los casos en los que se utilicen los métodos de contratación: limitada, directa y selectiva. \n"
+"Por ejemplo, en el caso de procedimientos de contratación por invitación a cuando menos tres personas o adjudicación directa, se señalan de manera general las razones por las cuáles resulta procedente la excepción a la licitación pública."
+
+#. /definitions/Tender/properties/mainProcurementCategory/title
+#: schema/release-schema.json:1
+msgid "Main procurement category"
+msgstr "Categoría principal de contratación"
+
+#. /definitions/Tender/properties/mainProcurementCategory/description
+#: schema/release-schema.json:1
+msgid ""
+"The primary category describing the main object of this contracting process "
+"from the [procurementCategory](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#procurement-category)"
+" codelist. This is a closed codelist. Local classifications should be mapped"
+" to this list."
+msgstr ""
+"Categoría primaria que describe el objeto principal del procedimiento de "
+"contratación, se obtiene de la lista de códigos "
+"[procurementCategory](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#procurement-"
+"category). Esta es una lista de códigos cerrada. Otros tipos de "
+"clasificaciones deberán especificarse en el campo \"Categorías adicionales "
+"de contratación\"."
+
+#. /definitions/Tender/properties/additionalProcurementCategories/title
+#: schema/release-schema.json:1
+msgid "Additional procurement categories"
+msgstr "Categorías adicionales de contratación"
+
+#. /definitions/Tender/properties/additionalProcurementCategories/description
+#: schema/release-schema.json:1
+msgid ""
+"Any additional categories which describe the objects of this contracting "
+"process, from the [extendedProcurementCategory](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#extended-procurement-"
+"category) codelist. This is an open codelist. Local categories can be "
+"included in this list."
+msgstr ""
+"Cualquier categoría adicional que describa los objetos de este procedimiento"
+" de contratación, se obtienen de la "
+"[extendedProcurementCategory](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#extended-procurement-"
+"category) lista de códigos. Esta es una lista de códigos abierta. Las "
+"categorías locales podrán ser incluidos en esta lista."
+
+#. /definitions/Tender/properties/awardCriteria/title
+#: schema/release-schema.json:1
+msgid "Award criteria"
+msgstr "Criterio de evaluación de proposiciones"
+
+#. /definitions/Tender/properties/awardCriteria/description
+#: schema/release-schema.json:1
+msgid ""
+"Specify the award criteria for the procurement, using the [award criteria "
+"codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#award-criteria)"
+msgstr ""
+"Especifica los criterios de evaluación de proposiciones para el "
+"procedimiento de contratación, utilizando los criterios de adjudicación: "
+"[award criteria codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#award-criteria)."
+
+#. /definitions/Tender/properties/awardCriteriaDetails/title
+#: schema/release-schema.json:1
+msgid "Award criteria details"
+msgstr "Detalles sobre el criterio de evaluación de proposiciones"
+
+#. /definitions/Tender/properties/awardCriteriaDetails/description
+#: schema/release-schema.json:1
+msgid ""
+"Any detailed or further information on the award or selection criteria."
+msgstr ""
+"Descripción del mecanismo de evaluación de proposiciones a utilizar en el "
+"procedimiento de contratación de que se trate."
+
+#. /definitions/Tender/properties/submissionMethod/title
+#: schema/release-schema.json:1
+msgid "Submission method"
+msgstr "Medios para la recepción de las proposiciones"
+
+#. /definitions/Tender/properties/submissionMethod/description
+#: schema/release-schema.json:1
+msgid ""
+"Specify the method by which bids must be submitted, in person, written, or "
+"electronic auction. Using the [submission method codelist](http://standard"
+".open-contracting.org/{{version}}/{{lang}}/schema/codelists/#submission-"
+"method)"
+msgstr ""
+"Especifica el método por el cual las ofertas deben ser enviadas, presencial,"
+" electrónica o ambas. Utilizando la [submission method "
+"codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#submission-method)."
+
+#. /definitions/Tender/properties/submissionMethodDetails/title
+#: schema/release-schema.json:1
+msgid "Submission method details"
+msgstr "Descripción de los medios para la recepción de las proposiciones"
+
+#. /definitions/Tender/properties/submissionMethodDetails/description
+#: schema/release-schema.json:1
+msgid ""
+"Any detailed or further information on the submission method. This may "
+"include the address, e-mail address or online service to which bids should "
+"be submitted, and any special requirements to be followed for submissions."
+msgstr ""
+"En el caso de procedimientos de contratación para la adquisición y arrendamiento de bienes muebles y prestación de servicios. Se señala lo siguiente:\n"
+" \n"
+" · Si las proposiciones se presentan en forma documental y por escrito en sobre cerrado durante el acto de presentación y apertura de proposiciones, o bien mediante el uso de servicio postal o de mensajería.\n"
+" · Si las proposiciones exclusivamente se presentarán a través de CompraNet, utilizando medios de identificación electrónica.\n"
+" · Si las proposiciones se presentan a elección de los licitantes, en forma documental y por escrito o a través de CompraNet.\n"
+" \n"
+"En el caso de procedimientos de contratación de obras públicas y servicios relacionados con las mismas, se señala lo siguiente:\n"
+" \n"
+" · Si las proposiciones se presentan en forma documental y por escrito en sobre cerrado durante el acto de presentación y apertura de proposiciones, o bien mediante el uso de servicio postal o de mensajería\n"
+" · Si las proposiciones se presentan a elección de los licitantes, en forma documental y por escrito o a través de CompraNet."
+
+#. /definitions/Tender/properties/tenderPeriod/title
+#: schema/release-schema.json:1
+msgid "Tender period"
+msgstr "Periodo de entrega de proposiciones"
+
+#. /definitions/Tender/properties/tenderPeriod/description
+#: schema/release-schema.json:1
+msgid ""
+"The period when the tender is open for submissions. The end date is the "
+"closing date for tender submissions."
+msgstr ""
+"Fechas que comprenden el inicio y cierre del plazo para la presentación de "
+"proposiciones en las licitaciones públicas e invitación a cuando menos tres "
+"personas."
+
+#. /definitions/Tender/properties/enquiryPeriod/title
+#: schema/release-schema.json:1
+msgid "Enquiry period"
+msgstr "Periodo para presentar solicitudes de aclaración"
+
+#. /definitions/Tender/properties/enquiryPeriod/description
+#: schema/release-schema.json:1
+msgid ""
+"The period during which potential bidders may submit questions and requests "
+"for clarification to the entity managing procurement. Details of how to "
+"submit enquiries should be provided in attached notices, or in "
+"submissionMethodDetails. Structured dates for when responses to questions "
+"will be made can be provided using tender milestones."
+msgstr ""
+"Periodo para solicitar aclaraciones, según se trate de procedimientos de "
+"contratación en materia de adquisiciones, arrendamientos y servicios; obras "
+"públicas y servicios relacionados con las mismas, y contrataciones "
+"financiadas con créditos externos."
+
+#. /definitions/Tender/properties/hasEnquiries/title
+#: schema/release-schema.json:1
+msgid "Has enquiries?"
+msgstr "¿Hubo solicitudes de aclaración?"
+
+#. /definitions/Tender/properties/hasEnquiries/description
+#: schema/release-schema.json:1
+msgid ""
+"A true/false field to indicate whether any enquiries were received during "
+"the tender process. Structured information on enquiries that were received, "
+"and responses to them, can be provided using the enquiries extension."
+msgstr "Campo Sí / No para indicar si hubo solicitudes de aclaración."
+
+#. /definitions/Tender/properties/eligibilityCriteria/title
+#: schema/release-schema.json:1
+msgid "Eligibility criteria"
+msgstr "Criterios de elegibilidad"
+
+#. /definitions/Tender/properties/eligibilityCriteria/description
+#: schema/release-schema.json:1
+msgid "A description of any eligibility criteria for potential suppliers."
+msgstr ""
+"Requisitos y condiciones que deben cumplir los interesados para participar "
+"en el procedimiento de contratación."
+
+#. /definitions/Tender/properties/awardPeriod/title
+#: schema/release-schema.json:1
+msgid "Evaluation and award period"
+msgstr "Periodo de evaluación y adjudicación"
+
+#. /definitions/Tender/properties/awardPeriod/description
+#: schema/release-schema.json:1
+msgid ""
+"The period for decision making regarding the contract award. The end date "
+"should be the date on which an award decision is due to be finalized. The "
+"start date is optional, and may be used to indicate the start of an "
+"evaluation period."
+msgstr ""
+"El plazo para la toma de decisiones respecto a la adjudicación del contrato."
+" La fecha de finalización debe ser la fecha en la que se da el fallo de "
+"adjudicación. La fecha de inicio es opcional y puede utilizarse para indicar"
+" el inicio de un período de evaluación."
+
+#. /definitions/Tender/properties/contractPeriod/description
+#: schema/release-schema.json:1
+msgid ""
+"The period over which the contract is estimated or required to be active. If"
+" the tender does not specify explicit dates, the duration field may be used."
+msgstr ""
+"El período durante el cual se estima o se requiere que el contrato esté "
+"activo. Si la oferta no especifica fechas explícitas, puede utilizarse el "
+"campo de vigencia."
+
+#. /definitions/Tender/properties/contractPeriod/title
+#. /definitions/Award/properties/contractPeriod/title
+#: schema/release-schema.json:1
+msgid "Contract period"
+msgstr "Periodo del contrato"
+
+#. /definitions/Tender/properties/numberOfTenderers/title
+#: schema/release-schema.json:1
+msgid "Number of tenderers"
+msgstr "Número de licitantes"
+
+#. /definitions/Tender/properties/numberOfTenderers/description
+#: schema/release-schema.json:1
+msgid "The number of parties who submit a bid."
+msgstr ""
+"Número total de proposiciones recibidas en el procedimiento de licitación "
+"pública o de invitación a cuando menos tres personas."
+
+#. /definitions/Tender/properties/tenderers/title
+#: schema/release-schema.json:1
+msgid "Tenderers"
+msgstr "Licitantes"
+
+#. /definitions/Tender/properties/tenderers/description
+#: schema/release-schema.json:1
+msgid ""
+"All parties who submit a bid on a tender. More detailed information on bids "
+"and the bidding organization can be provided using the optional bid "
+"extension."
+msgstr ""
+"Todas las personas físicas y morales que presenten una proposición en una "
+"contratación. Puede proporcionarse información más detallada sobre las "
+"proposiciones y la organización de éstas."
+
+#. /definitions/Tender/properties/documents/description
+#: schema/release-schema.json:1
+msgid ""
+"All documents and attachments related to the tender, including any notices. "
+"See the [documentType codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#document-type) for "
+"details of potential documents to include. Common documents include official"
+" legal notices of tender, technical specifications, evaluation criteria, "
+"and, as a tender process progresses, clarifications and replies to queries."
+msgstr ""
+"Todos los documentos y anexos relacionados con la contratación, incluidos "
+"los avisos. Consulte la lista de códigos [documentType "
+"codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#document-type)  para "
+"obtener detalles  de los posibles documentos a incluir. Comúnmente los "
+"documentos incluyen los avisos oficiales de la contratación, las "
+"especificaciones técnicas, los criterios de evaluación y a medida que avanza"
+" el proceso de contratación, las aclaraciones y respuestas a las preguntas "
+"que se generen en su caso."
+
+#. /definitions/Tender/properties/milestones/title
+#. /definitions/Implementation/properties/milestones/title
+#: schema/release-schema.json:1
+msgid "Milestones"
+msgstr "Hitos"
+
+#. /definitions/Tender/properties/milestones/description
+#: schema/release-schema.json:1
+msgid "A list of milestones associated with the tender."
+msgstr ""
+"Una lista de eventos relevantes y/o entregables asociados a la licitación, "
+"incluyendo su ejecución."
+
+#. /definitions/Tender/properties/amendments/description
+#: schema/release-schema.json:1
+msgid ""
+"A tender amendment is a formal change to the tender, and generally involves "
+"the publication of a new tender notice/release. The rationale and a "
+"description of the changes made can be provided here."
+msgstr ""
+"Una modificación a la contratación es un cambio formal a la misma, y "
+"generalmente implica la publicación de un nuevo aviso. La justificación y "
+"una descripción de los cambios realizados se pueden proporcionar aquí."
+
+#. /definitions/Tender/properties/amendments/title
+#. /definitions/Award/properties/amendments/title
+#. /definitions/Contract/properties/amendments/title
+#: schema/release-schema.json:1
+msgid "Amendments"
+msgstr "Modificaciones"
+
+#. /definitions/Tender/properties/amendment/title
+#. /definitions/Award/properties/amendment/title
+#. /definitions/Contract/properties/amendment/title
+#. /definitions/Amendment/title
+#: schema/release-schema.json:1
+msgid "Amendment"
+msgstr "Información de la modificación"
+
+#. /definitions/Tender/properties/amendment/description
+#. /definitions/Award/properties/amendment/description
+#. /definitions/Contract/properties/amendment/description
+#: schema/release-schema.json:1
+msgid ""
+"The use of individual amendment objects has been deprecated. From OCDS 1.1 "
+"information should be provided in the amendments array."
+msgstr ""
+"El uso de objetos de modificaciones individuales ha quedado obsoleto. En la "
+"versión OCDS 1.1 la información debe ser proporcionada en el arreglo de "
+"modificaciones."
+
+#. /definitions/Tender/properties/amendment/deprecated/description
+#. /definitions/Award/properties/amendment/deprecated/description
+#. /definitions/Contract/properties/amendment/deprecated/description
+#. /definitions/TenderUnversioned/properties/amendment/deprecated/description
+#. /definitions/AwardUnversioned/properties/amendment/deprecated/description
+#. /definitions/ContractUnversioned/properties/amendment/deprecated/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid ""
+"The single amendment object has been deprecated in favour of including "
+"amendments in an amendments (plural) array."
+msgstr ""
+"El objeto de modificaciones individuales ha sido des habilitado con el "
+"objeto de incluir las modificaciones en una matriz de enmiendas conjuntas "
+"(plural)."
+
+#. /definitions/Award/title
+#: schema/release-schema.json:1
+msgid "Award"
+msgstr "Adjudicación"
+
+#. /definitions/Award/description
+#: schema/release-schema.json:1
+msgid ""
+"An award for the given procurement. There may be more than one award per "
+"contracting process e.g. because the contract is split among different "
+"providers, or because it is a standing offer."
+msgstr ""
+"Una adjudicación para una contratación determinada. Puede haber más de una "
+"adjudicación por licitación, por ejemplo, porque se pueden adjudicar a "
+"varios proveedores."
+
+#. /definitions/Award/properties/id/title
+#. /definitions/Contract/properties/awardID/title
+#: schema/release-schema.json:1
+msgid "Award ID"
+msgstr "Identificador de la adjudicación"
+
+#. /definitions/Award/properties/id/description
+#: schema/release-schema.json:1
+msgid ""
+"The identifier for this award. It must be unique and cannot change within "
+"the Open Contracting Process it is part of (defined by a single ocid). See "
+"the [identifier guidance](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/identifiers/) for further "
+"details."
+msgstr ""
+"El identificador de esta adjudicación. Debe ser único y no puede cambiar "
+"dentro del procedimiento de contratación abierto del que forma parte "
+"(definido por un solo ocid). Para obtener más detalles, consulte la "
+"[identifier guidance](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/identifiers/)."
+
+#. /definitions/Award/properties/title/title
+#. /definitions/Milestone/properties/title/title
+#. /definitions/Document/properties/title/title
+#: schema/release-schema.json:1
+msgid "Title"
+msgstr "Título"
+
+#. /definitions/Award/properties/title/description
+#: schema/release-schema.json:1
+msgid "Award title"
+msgstr "Título de la adjudicación."
+
+#. /definitions/Award/properties/description/title
+#. /definitions/Milestone/properties/description/title
+#. /definitions/Document/properties/description/title
+#. /definitions/Item/properties/description/title
+#. /definitions/Amendment/properties/description/title
+#. /definitions/Classification/properties/description/title
+#: schema/release-schema.json:1
+msgid "Description"
+msgstr "Descripción"
+
+#. /definitions/Award/properties/description/description
+#: schema/release-schema.json:1
+msgid "Award description"
+msgstr "Descripción de la adjudicación."
+
+#. /definitions/Award/properties/status/title
+#: schema/release-schema.json:1
+msgid "Award status"
+msgstr "Estatus de la adjudicación"
+
+#. /definitions/Award/properties/status/description
+#: schema/release-schema.json:1
+msgid ""
+"The current status of the award drawn from the [awardStatus "
+"codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#award-status)"
+msgstr ""
+"El estado actual de la adjudicación obtenido de la [awardStatus "
+"codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#award-status)."
+
+#. /definitions/Award/properties/date/title
+#: schema/release-schema.json:1
+msgid "Award date"
+msgstr "Fecha de la adjudicación"
+
+#. /definitions/Award/properties/date/description
+#: schema/release-schema.json:1
+msgid ""
+"The date of the contract award. This is usually the date on which a decision"
+" to award was made."
+msgstr ""
+"Fecha del documento en que se determina la resolución de la adjudicación."
+
+#. /definitions/Award/properties/value/description
+#: schema/release-schema.json:1
+msgid ""
+"The total value of this award. In the case of a framework contract this may "
+"be the total estimated lifetime value, or maximum value, of the agreement. "
+"There may be more than one award per procurement. A negative value indicates"
+" that the award may involve payments from the supplier to the buyer "
+"(commonly used in concession contracts)."
+msgstr "Valor económico de la adjudicación sin impuestos incluidos."
+
+#. /definitions/Award/properties/suppliers/title
+#: schema/release-schema.json:1
+msgid "Suppliers"
+msgstr "Proveedores o contratistas"
+
+#. /definitions/Award/properties/suppliers/description
+#: schema/release-schema.json:1
+msgid ""
+"The suppliers awarded this award. If different suppliers have been awarded "
+"different items of values, these should be split into separate award blocks."
+msgstr ""
+"Los proveedores o contratistas adjudicados en el procedimiento de "
+"contratación. Si hay diferentes proveedores o contratistas adjudicados, "
+"estos deben ser separados en diferentes adjudicaciones."
+
+#. /definitions/Award/properties/items/title
+#: schema/release-schema.json:1
+msgid "Items awarded"
+msgstr "Ítems de la adjudicación"
+
+#. /definitions/Award/properties/items/description
+#: schema/release-schema.json:1
+msgid ""
+"The goods and services awarded in this award, broken into line items "
+"wherever possible. Items should not be duplicated, but the quantity "
+"specified instead."
+msgstr ""
+"Los bienes, servicios u obra pública adjudicados en la contratación, "
+"divididos en partidas o conceptos siempre que sea posible. Las partidas o "
+"conceptos no deben duplicarse."
+
+#. /definitions/Award/properties/contractPeriod/description
+#: schema/release-schema.json:1
+msgid "The period for which the contract has been awarded."
+msgstr "Vigencia del contrato adjudicado"
+
+#. /definitions/Award/properties/documents/description
+#: schema/release-schema.json:1
+msgid ""
+"All documents and attachments related to the award, including any notices."
+msgstr "Documentos y anexos relacionados con la adjudicación."
+
+#. /definitions/Award/properties/amendments/description
+#: schema/release-schema.json:1
+msgid ""
+"An award amendment is a formal change to the details of the award, and "
+"generally involves the publication of a new award notice/release. The "
+"rationale and a description of the changes made can be provided here."
+msgstr ""
+"Una modificación en la adjudicación es un cambio formal a los detalles de la"
+" misma, e implica generalmente la publicación de una nueva adjudicación. La "
+"justificación y una descripción de los cambios realizados se pueden "
+"proporcionar aquí."
+
+#. /definitions/Contract/title
+#: schema/release-schema.json:1
+msgid "Contract"
+msgstr "Contrato"
+
+#. /definitions/Contract/description
+#: schema/release-schema.json:1
+msgid ""
+"Information regarding the signed contract between the buyer and supplier(s)."
+msgstr ""
+"Información sobre el contrato firmado entre el comprador y el/los "
+"proveedor/es."
+
+#. /definitions/Contract/properties/id/title
+#: schema/release-schema.json:1
+msgid "Contract ID"
+msgstr "Identificador del contrato"
+
+#. /definitions/Contract/properties/id/description
+#: schema/release-schema.json:1
+msgid ""
+"The identifier for this contract. It must be unique and cannot change within"
+" its Open Contracting Process (defined by a single ocid). See the "
+"[identifier guidance](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/identifiers/) for further "
+"details."
+msgstr ""
+"El identificador del contrato. Debe ser único y no puede cambiar dentro del "
+"procedimiento de contratación abierto (definido por un solo ocid). Para más "
+"detalles ver [identifier guidance]. (http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/identifiers/)."
+
+#. /definitions/Contract/properties/awardID/description
+#: schema/release-schema.json:1
+msgid "The award.id against which this contract is being issued."
+msgstr ""
+"Identificador de la adjudicación en el cual se encuentra este contrato."
+
+#. /definitions/Contract/properties/title/title
+#. /definitions/Contract/properties/title/description
+#: schema/release-schema.json:1
+msgid "Contract title"
+msgstr "Título del contrato"
+
+#. /definitions/Contract/properties/description/title
+#. /definitions/Contract/properties/description/description
+#: schema/release-schema.json:1
+msgid "Contract description"
+msgstr "Objeto del contrato"
+
+#. /definitions/Contract/properties/status/title
+#: schema/release-schema.json:1
+msgid "Contract status"
+msgstr "Estatus del contrato"
+
+#. /definitions/Contract/properties/status/description
+#: schema/release-schema.json:1
+msgid ""
+"The current status of the contract. Drawn from the [contractStatus "
+"codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#contract-status)"
+msgstr ""
+"El estado actual del contrato. Obtenido desde la [contractStatus "
+"codelist].(http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#contract-status)."
+
+#. /definitions/Contract/properties/period/title
+#. /definitions/Period/title
+#: schema/release-schema.json:1
+msgid "Period"
+msgstr "Vigencia"
+
+#. /definitions/Contract/properties/period/description
+#: schema/release-schema.json:1
+msgid "The start and end date for the contract."
+msgstr "Fecha de inicio y fecha fin del contrato."
+
+#. /definitions/Contract/properties/value/description
+#: schema/release-schema.json:1
+msgid ""
+"The total value of this contract. A negative value indicates that the "
+"contract will involve payments from the supplier to the buyer (commonly used"
+" in concession contracts)."
+msgstr "Valor económico del contrato sin impuestos."
+
+#. /definitions/Contract/properties/items/title
+#: schema/release-schema.json:1
+msgid "Items contracted"
+msgstr "Ítems del contrato"
+
+#. /definitions/Contract/properties/items/description
+#: schema/release-schema.json:1
+msgid ""
+"The goods, services, and any intangible outcomes in this contract. Note: If "
+"the items are the same as the award do not repeat."
+msgstr ""
+"Bienes, servicios u obra pública objetos del contrato. Nota: Si los ítems "
+"son los mismos que aquellos listados en la adjudicación, no repetir."
+
+#. /definitions/Contract/properties/dateSigned/title
+#: schema/release-schema.json:1
+msgid "Date signed"
+msgstr "Fecha de firma del contrato"
+
+#. /definitions/Contract/properties/dateSigned/description
+#: schema/release-schema.json:1
+msgid ""
+"The date the contract was signed. In the case of multiple signatures, the "
+"date of the last signature."
+msgstr ""
+"Fecha establecida en el contrato, la cual será aquélla en que el proveedor o"
+" contratista hubiere firmado."
+
+#. /definitions/Contract/properties/documents/description
+#: schema/release-schema.json:1
+msgid ""
+"All documents and attachments related to the contract, including any "
+"notices."
+msgstr "Todos los documentos y anexos relacionados con el contrato."
+
+#. /definitions/Contract/properties/implementation/title
+#. /definitions/Implementation/title
+#: schema/release-schema.json:1
+msgid "Implementation"
+msgstr "Ejecución"
+
+#. /definitions/Contract/properties/implementation/description
+#: schema/release-schema.json:1
+msgid ""
+"Information related to the implementation of the contract in accordance with"
+" the obligations laid out therein."
+msgstr ""
+"Información relacionada con la ejecución del contrato de conformidad con las"
+" obligaciones establecidas en el mismo."
+
+#. /definitions/Contract/properties/relatedProcesses/description
+#: schema/release-schema.json:1
+msgid ""
+"If this process is followed by one or more contracting processes, "
+"represented under a separate open contracting identifier (ocid) then details"
+" of the related process can be provided here. This is commonly used to point"
+" to subcontracts, or to renewal and replacement processes for this contract."
+msgstr ""
+"Si este procedimiento de contratación viene de uno o más procedimientos "
+"previos, representados bajo identificadores de contratación abierta "
+"diferentes (ocid), entonces se pueden proporcionar detalles del "
+"procedimiento relacionado. Esto se utiliza comúnmente para señalar "
+"subcontratos, o para procesos de renovación y reemplazo de contratos."
+
+#. /definitions/Contract/properties/milestones/title
+#: schema/release-schema.json:1
+msgid "Contract milestones"
+msgstr "Hitos del contrato"
+
+#. /definitions/Contract/properties/milestones/description
+#: schema/release-schema.json:1
+msgid ""
+"A list of milestones associated with the finalization of this contract."
+msgstr "Una lista de hitos asociados con la contratación."
+
+#. /definitions/Contract/properties/amendments/description
+#: schema/release-schema.json:1
+msgid ""
+"A contract amendment is a formal change to, or extension of, a contract, and"
+" generally involves the publication of a new contract notice/release, or "
+"some other documents detailing the change. The rationale and a description "
+"of the changes made can be provided here."
+msgstr ""
+"Una modificación del contrato es un cambio formal o extensión de un "
+"contrato, y generalmente implica la publicación de un nuevo aviso de "
+"contrato / liberación, o algunos otros documentos que detallan el cambio. La"
+" justificación y una descripción de los cambios realizados se pueden "
+"proporcionar aquí."
+
+#. /definitions/Implementation/description
+#: schema/release-schema.json:1
+msgid ""
+"Information during the performance / implementation stage of the contract."
+msgstr "Información durante la fase de ejecución / ejecución del contrato"
+
+#. /definitions/Implementation/properties/transactions/title
+#: schema/release-schema.json:1
+msgid "Transactions"
+msgstr "Transacciones relacionadas con los pagos"
+
+#. /definitions/Implementation/properties/transactions/description
+#: schema/release-schema.json:1
+msgid "A list of the spending transactions made against this contract"
+msgstr ""
+"Lista de las transacciones relacionadas con los pagos efectuados en este "
+"contrato."
+
+#. /definitions/Implementation/properties/milestones/description
+#: schema/release-schema.json:1
+msgid ""
+"As milestones are completed, milestone completions should be documented."
+msgstr "A medida que se concluyen los hitos, éstos deben documentarse."
+
+#. /definitions/Implementation/properties/documents/description
+#: schema/release-schema.json:1
+msgid ""
+"Documents and reports that are part of the implementation phase e.g. audit "
+"and evaluation reports."
+msgstr ""
+"Documentos o informes durante la fase de ejecución / implementación del "
+"contrato."
+
+#. /definitions/Milestone/title
+#: schema/release-schema.json:1
+msgid "Milestone"
+msgstr "Hito"
+
+#. /definitions/Milestone/properties/id/title
+#. /definitions/Document/properties/id/title
+#. /definitions/Budget/properties/id/title
+#. /definitions/Transaction/properties/id/title
+#. /definitions/Item/properties/id/title
+#. /definitions/Item/properties/unit/properties/id/title
+#. /definitions/Amendment/properties/id/title
+#. /definitions/Classification/properties/id/title
+#. /definitions/Identifier/properties/id/title
+#. /definitions/ItemUnversioned/properties/unit/properties/id/title
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid "ID"
+msgstr "Identificador"
+
+#. /definitions/Milestone/properties/id/description
+#: schema/release-schema.json:1
+msgid ""
+"A local identifier for this milestone, unique within this block. This field "
+"is used to keep track of multiple revisions of a milestone through the "
+"compilation from release to record mechanism."
+msgstr ""
+"Identificador único de este hito en relación a esta sección. Este campo se "
+"utiliza para darle seguimiento a las múltiples versiones de los hitos para "
+"el proceso de creación de un registro del procedimiento de contratación "
+"(record) que se genera a partir de las publicaciones."
+
+#. /definitions/Milestone/properties/title/description
+#: schema/release-schema.json:1
+msgid "Milestone title"
+msgstr "Denominación general que se asigne al hito."
+
+#. /definitions/Milestone/properties/type/title
+#: schema/release-schema.json:1
+msgid "Milestone type"
+msgstr "Tipo de hito"
+
+#. /definitions/Milestone/properties/type/description
+#: schema/release-schema.json:1
+msgid ""
+"The type of milestone, drawn from an extended [milestoneType "
+"codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#milestone-type)."
+msgstr ""
+"El tipo de hito extraído de la [milestoneType codelist](http://standard"
+".open-contracting.org/{{version}}/{{lang}}/schema/codelists/#milestone-"
+"type)."
+
+#. /definitions/Milestone/properties/description/description
+#: schema/release-schema.json:1
+msgid "A description of the milestone."
+msgstr "Descripción del hito."
+
+#. /definitions/Milestone/properties/code/title
+#: schema/release-schema.json:1
+msgid "Milestone code"
+msgstr "Código del hito"
+
+#. /definitions/Milestone/properties/code/description
+#: schema/release-schema.json:1
+msgid ""
+"Milestone codes can be used to track specific events that take place for a "
+"particular kind of contracting process. For example, a code of "
+"'approvalLetter' could be used to allow applications to understand this "
+"milestone represents the date an approvalLetter is due or signed. Milestone "
+"codes is an open codelist, and codes should be agreed among data producers "
+"and the applications using that data."
+msgstr ""
+"Los códigos de hitos pueden utilizarse para dar seguimiento a eventos "
+"específicos que tienen lugar en un punto particular del procedimiento de "
+"contratación. Por ejemplo, un código de 'AperturaProposiciones' podría ser "
+"utilizado para permitir que los participantes consideren que este hito "
+"señala la fecha en que se aperturan las proposiciones. Los códigos de hitos "
+"se desprenden de una lista de códigos abierta y deben definirse entre los "
+"productores de los datos y las aplicaciones tecnológicas que utilicen esos "
+"datos."
+
+#. /definitions/Milestone/properties/dueDate/title
+#: schema/release-schema.json:1
+msgid "Due date"
+msgstr "Fecha de vencimiento"
+
+#. /definitions/Milestone/properties/dueDate/description
+#: schema/release-schema.json:1
+msgid "The date the milestone is due."
+msgstr "Fecha en que se debe cumplir el hito."
+
+#. /definitions/Milestone/properties/dateMet/title
+#: schema/release-schema.json:1
+msgid "Date met"
+msgstr "Fecha de cumplimiento"
+
+#. /definitions/Milestone/properties/dateMet/description
+#: schema/release-schema.json:1
+msgid "The date on which the milestone was met."
+msgstr "La fecha en que se cumplió el hito."
+
+#. /definitions/Milestone/properties/dateModified/title
+#. /definitions/Document/properties/dateModified/title
+#: schema/release-schema.json:1
+msgid "Date modified"
+msgstr "Fecha de modificación"
+
+#. /definitions/Milestone/properties/dateModified/description
+#: schema/release-schema.json:1
+msgid ""
+"The date the milestone was last reviewed or modified and the status was "
+"altered or confirmed to still be correct."
+msgstr "La fecha en que el hito fue revisado o modificado por última vez."
+
+#. /definitions/Milestone/properties/status/title
+#: schema/release-schema.json:1
+msgid "Status"
+msgstr "Estatus del hito"
+
+#. /definitions/Milestone/properties/status/description
+#: schema/release-schema.json:1
+msgid ""
+"The status that was realized on the date provided in dateModified, drawn "
+"from the [milestoneStatus codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#milestone-status)."
+msgstr ""
+"El estado que se modificó o confirmó en la fecha definida en el campo "
+"\"Fecha de modificación\" -dateModified-, de acuerdo con la lista de códigos"
+" de \"estatus del hito\" [milestoneStatus codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#milestone-status)."
+
+#. /definitions/Milestone/properties/documents/description
+#: schema/release-schema.json:1
+msgid "List of documents associated with this milestone (Deprecated in 1.1)."
+msgstr "Lista de documentos asociados al hito. (Deprecado en 1.1)"
+
+#. /definitions/Milestone/properties/documents/deprecated/description
+#. /definitions/MilestoneUnversioned/properties/documents/deprecated/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid ""
+"Inclusion of documents at the milestone level is now deprecated. "
+"Documentation should be attached in the tender, award, contract or "
+"implementation sections, and titles and descriptions used to highlight the "
+"related milestone. Publishers who wish to continue to provide documents at "
+"the milestone level should explicitly declare this by using the milestone "
+"documents extension."
+msgstr ""
+"La inclusión de documentos en el nivel obsoleto del hito. La documentación "
+"debe adjuntarse en las secciones de licitación, adjudicación, contrato o "
+"implementación, y los títulos y descripciones utilizados para resaltar el "
+"hito relacionado. Los publicadores que deseen continuar proporcionando "
+"documentos en el nivel del hito deben declarar explícitamente esto usando la"
+" extensión de documentos de hitos."
+
+#. /definitions/Document/title
+#: schema/release-schema.json:1
+msgid "Document"
+msgstr "Documento"
+
+#. /definitions/Document/description
+#: schema/release-schema.json:1
+msgid ""
+"Links to, or descriptions of, external documents can be attached at various "
+"locations within the standard. Documents may be supporting information, "
+"formal notices, downloadable forms, or any other kind of resource that "
+"should be made public as part of full open contracting."
+msgstr ""
+"Se pueden adjuntar enlaces o descripciones de documentos externos dentro del"
+" estándar. Los documentos pueden ser de apoyo a la información, avisos "
+"formales, formularios descargables, o cualquier otro tipo de recurso que "
+"debe hacerse público como parte de la contratación."
+
+#. /definitions/Document/properties/id/description
+#: schema/release-schema.json:1
+msgid ""
+"A local, unique identifier for this document. This field is used to keep "
+"track of multiple revisions of a document through the compilation from "
+"release to record mechanism."
+msgstr ""
+"Identificador local y único para este documento. Este campo se utiliza para "
+"darle seguimiento a las múltiples versiones de un documento en el proceso de"
+" creación de un registro del procedimiento de contratación (record) que se "
+"genera a partir de las publicaciones."
+
+#. /definitions/Document/properties/documentType/title
+#: schema/release-schema.json:1
+msgid "Document type"
+msgstr "Tipo de documento"
+
+#. /definitions/Document/properties/documentType/description
+#: schema/release-schema.json:1
+msgid ""
+"A classification of the document described taken from the [documentType "
+"codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#document-type). "
+"Values from the provided codelist should be used wherever possible, though "
+"extended values can be provided if the codelist does not have a relevant "
+"code."
+msgstr ""
+"Una clasificación del documento descrito de acuerdo con la [documentType "
+"codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#document-type). Los "
+"valores proporcionados de la lista de códigos deben usarse siempre que sea "
+"posible, aunque se pueden proporcionar valores adicionales cuando la lista "
+"de códigos no tiene uno necesario."
+
+#. /definitions/Document/properties/title/description
+#: schema/release-schema.json:1
+msgid "The document title."
+msgstr "Título del documento."
+
+#. /definitions/Document/properties/description/description
+#: schema/release-schema.json:1
+msgid ""
+"A short description of the document. We recommend descriptions do not exceed"
+" 250 words. In the event the document is not accessible online, the "
+"description field can be used to describe arrangements for obtaining a copy "
+"of the document."
+msgstr ""
+"Descripción corta del documento. Se recomienda no exceder 250 palabras. En "
+"el caso que el documento no esté disponible en línea, el campo podrá "
+"utilizarse para describir el proceso para acceder a una copia del mismo."
+
+#. /definitions/Document/properties/url/title
+#. /definitions/ContactPoint/properties/url/title
+#: schema/release-schema.json:1
+msgid "URL"
+msgstr "URL"
+
+#. /definitions/Document/properties/url/description
+#: schema/release-schema.json:1
+msgid ""
+" direct link to the document or attachment. The server providing access to "
+"this document should be configured to correctly report the document mime "
+"type."
+msgstr ""
+"Enlace directo al documento o archivo adjunto. El servidor que proporciona "
+"acceso a este documento debe estar configurado para proporcionar "
+"correctamente el tipo documento (MIME type)."
+
+#. /definitions/Document/properties/datePublished/title
+#: schema/release-schema.json:1
+msgid "Date published"
+msgstr "Fecha de publicación"
+
+#. /definitions/Document/properties/datePublished/description
+#: schema/release-schema.json:1
+msgid ""
+"The date on which the document was first published. This is particularly "
+"important for legally important documents such as notices of a tender."
+msgstr ""
+"La fecha de publicación del documento. Esto es particularmente importante "
+"para documentos relevantes desde el punto de vista legal, como los avisos de"
+" licitación."
+
+#. /definitions/Document/properties/dateModified/description
+#: schema/release-schema.json:1
+msgid "Date that the document was last modified"
+msgstr "Fecha en que se modificó por última vez el documento."
+
+#. /definitions/Document/properties/format/title
+#: schema/release-schema.json:1
+msgid "Format"
+msgstr "Formato"
+
+#. /definitions/Document/properties/format/description
+#: schema/release-schema.json:1
+msgid ""
+"The format of the document taken from the [IANA Media Types "
+"codelist](http://www.iana.org/assignments/media-types/), with the addition "
+"of one extra value for 'offline/print', used when this document entry is "
+"being used to describe the offline publication of a document. Use values "
+"from the template column. Links to web pages should be tagged 'text/html'."
+msgstr ""
+"El formato del documento tomado de la [IANA Media Types "
+"codelist](http://www.iana.org/assignments/media-types/), con la "
+"incorporación de un valor adicional para 'offline / print', utilizado cuando"
+" ha sido incorporado un documento que no ha sido publicado en línea. Utilice"
+" los valores de la columna de plantilla. Los enlaces a las páginas web deben"
+" estar etiquetados como \"text / html\"."
+
+#. /definitions/Document/properties/language/title
+#: schema/release-schema.json:1
+msgid "Language"
+msgstr "Idioma"
+
+#. /definitions/Document/properties/language/description
+#: schema/release-schema.json:1
+msgid ""
+"Specifies the language of the linked document using either two-letter "
+"[ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), or "
+"extended [BCP47 language tags](http://www.w3.org/International/articles"
+"/language-tags/). The use of lowercase two-letter codes from "
+"[ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) is "
+"strongly recommended unless there is a clear user need for distinguishing "
+"the language subtype."
+msgstr ""
+"Especifica el idioma del documento vinculado mediante la clasificación "
+"[ISO639-1] (https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) o "
+"mediante una clasificación extendida de [BCP47 language "
+"tags](http://www.w3.org/International/articles/language-tags/). Se "
+"recomienda el uso de códigos con dos letras en minúsculas de la "
+"clasificación [ISO639-1] "
+"(https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), a menos que exista "
+"una clara necesidad del usuario de distinguir un subtipo de idioma."
+
+#. /definitions/Budget/title
+#: schema/release-schema.json:1
+msgid "Budget information"
+msgstr "Información del presupuesto"
+
+#. /definitions/Budget/description
+#: schema/release-schema.json:1
+msgid ""
+"This section contain information about the budget line, and associated "
+"projects, through which this contracting process is funded. It draws upon "
+"data model of the [Fiscal Data Package](http://fiscal.dataprotocols.org/), "
+"and should be used to cross-reference to more detailed information held "
+"using a Budget Data Package, or, where no linked Budget Data Package is "
+"available, to provide enough information to allow a user to manually or "
+"automatically cross-reference with another published source of budget and "
+"project information."
+msgstr ""
+"Esta sección contiene información del presupuesto asignado para el "
+"procedimiento de contratación, incluye información sobre la(s) clave(s) "
+"presupuestaria(s). Toma el modelo de datos del Estándar Internacional de "
+"Datos Presupuestarios Abiertos y debería usarse para cruzar los datos con "
+"información más detallada usando este modelo, o cuando no esté disponible, "
+"se debe proveer suficiente información para permitir a un usuario cruzar "
+"automática o manualmente con otra fuente de información presupuestaria."
+
+#. /definitions/Budget/properties/id/description
+#: schema/release-schema.json:1
+msgid ""
+"An identifier for the budget line item which provides funds for this "
+"contracting process. This identifier should be possible to cross-reference "
+"against the provided data source."
+msgstr ""
+"Identificador del presupuesto. En caso de que la fuente sea presupuestaria, "
+"tanto federal como local, se señala el identificador básico de la fuente "
+"presupuestaria que provee los recursos económicos para la contratación."
+
+#. /definitions/Budget/properties/description/title
+#: schema/release-schema.json:1
+msgid "Budget Source"
+msgstr "Denominación de los componentes de la clave presupuestaria"
+
+#. /definitions/Budget/properties/description/description
+#: schema/release-schema.json:1
+msgid ""
+"A short free text description of the budget source. May be used to provide "
+"the title of the budget line, or the programme used to fund this project."
+msgstr ""
+"Descripción de los componentes de la clave presupuestaria. Puede referirse "
+"al título o al nombre de los componentes de la fuente presupuestaria que "
+"provee los recursos económicos necesarios para la contratación, por lo menos"
+" deberá incluir el Ramo, Modalidad y el Programa Presupuestario."
+
+#. /definitions/Budget/properties/amount/title
+#. /definitions/Transaction/properties/amount/title
+#. /definitions/Value/properties/amount/title
+#: schema/release-schema.json:1
+msgid "Amount"
+msgstr "Monto"
+
+#. /definitions/Budget/properties/amount/description
+#: schema/release-schema.json:1
+msgid ""
+"The value reserved in the budget for this contracting process. A negative "
+"value indicates anticipated income to the budget as a result of this "
+"contracting process, rather than expenditure. Where the budget is drawn from"
+" multiple sources, the budget breakdown extension can be used."
+msgstr ""
+"El valor reservado en el presupuesto para este procedimiento de "
+"contratación. Un valor negativo indica ingresos anticipados al presupuesto "
+"como resultado de este procedimiento de contratación, en lugar de gastos. "
+"Cuando se extrae el presupuesto de múltiples fuentes, se puede utilizar la "
+"extensión del desglose presupuestario."
+
+#. /definitions/Budget/properties/project/title
+#: schema/release-schema.json:1
+msgid "Project title"
+msgstr "Nombre del Programa o Proyecto de Inversión (PPI)"
+
+#. /definitions/Budget/properties/project/description
+#: schema/release-schema.json:1
+msgid ""
+"The name of the project that through which this contracting process is "
+"funded (if applicable). Some organizations maintain a registry of projects, "
+"and the data should use the name by which the project is known in that "
+"registry. No translation option is offered for this string, as translated "
+"values can be provided in third-party data, linked from the data source "
+"above."
+msgstr ""
+"Se trata del nombre del programa o proyecto de inversión establecido por "
+"cada unidad responsable, que lo identifica claramente. Por programa o "
+"proyecto de inversión debe entenderse al conjunto de obras y acciones para "
+"la construcción, ampliación, adquisición, modificación, mantenimiento o "
+"conservación de activos fijos, con el propósito de solucionar una "
+"problemática o atender una necesidad específica y que generan beneficios y "
+"costos a lo largo del tiempo."
+
+#. /definitions/Budget/properties/projectID/title
+#: schema/release-schema.json:1
+msgid "Project identifier"
+msgstr "Clave del Programa o Proyecto de Inversión (PPI)"
+
+#. /definitions/Budget/properties/projectID/description
+#: schema/release-schema.json:1
+msgid ""
+"An external identifier for the project that this contracting process forms "
+"part of, or is funded via (if applicable). Some organizations maintain a "
+"registry of projects, and the data should use the identifier from the "
+"relevant registry of projects."
+msgstr "Clave que identifica el programa o proyecto de inversión."
+
+#. /definitions/Budget/properties/uri/title
+#: schema/release-schema.json:1
+msgid "Linked budget information"
+msgstr "Hipervínculo a la clave presupuestaria"
+
+#. /definitions/Budget/properties/uri/description
+#: schema/release-schema.json:1
+msgid ""
+"A URI pointing directly to a machine-readable record about the budget line-"
+"item or line-items that fund this contracting process. Information may be "
+"provided in a range of formats, including using IATI, the Open Fiscal Data "
+"Standard or any other standard which provides structured data on budget "
+"sources. Human readable documents can be included using the "
+"planning.documents block."
+msgstr ""
+"Enlace o liga a un registro digital o base de datos que contenga la "
+"información sobre la clave presupuesta asociada a la contratación, en caso "
+"de existir."
+
+#. /definitions/Budget/properties/source/title
+#: schema/release-schema.json:1
+msgid "Data Source"
+msgstr "Fuente de datos de financiamiento"
+
+#. /definitions/Budget/properties/source/description
+#: schema/release-schema.json:1
+msgid ""
+"(Deprecated in 1.1) Used to point either to a corresponding Budget Data "
+"Package, or to a machine or human-readable source where users can find "
+"further information on the budget line item identifiers, or project "
+"identifiers, provided here."
+msgstr ""
+"Descripción de la clave que corresponde a las asignaciones conforme al "
+"origen de su financiamiento de acuerdo con la relación de fuentes de "
+"financiamiento emitidas por el Consejo Nacional de Armonización Contable "
+"(CONAC). Ejemplos: Recursos fiscales, financiamientos externos, ingresos "
+"propios, etc."
+
+#. /definitions/Budget/properties/source/deprecated/description
+#. /definitions/BudgetUnversioned/properties/source/deprecated/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid ""
+"The budget data source field was intended to link to machine-readable data "
+"about the budget for a contracting process, but has been widely mis-used to "
+"provide free-text descriptions of budget providers. As a result, it has been"
+" removed from version 1.1. budget/uri can be used to provide a link to "
+"machine-readable budget information, and budget/description can be used to "
+"provide human-readable information on the budget source."
+msgstr ""
+"El campo de fuente de datos presupuestarios estaba destinado a vincular datos legibles por computadoras relacionados con el presupuesto para un procedimiento de contratación, pero se ha utilizado para proporcionar descripciones en texto libre de las fuentes del presupuesto. Como resultado, se ha eliminado de la versión 1.1.\n"
+"budget/uri puede utilizarse para proporcionar un enlace a información presupuestaria legible por computadora, y el budget/description puede utilizarse para proporcionar información legible por el usuario sobre la fuente presupuestaria."
+
+#. /definitions/Transaction/title
+#: schema/release-schema.json:1
+msgid "Transaction information"
+msgstr "Información de pagos"
+
+#. /definitions/Transaction/description
+#: schema/release-schema.json:1
+msgid ""
+"A spending transaction related to the contracting process. Draws upon the "
+"data models of the [Fiscal Data Package](http://fiscal.dataprotocols.org/) "
+"and the [International Aid Transparency Initiative](http://iatistandard.org"
+"/activity-standard/iati-activities/iati-activity/transaction/) and should be"
+" used to cross-reference to more detailed information held using a Fiscal "
+"Data Package, IATI file, or to provide enough information to allow a user to"
+" manually or automatically cross-reference with some other published source "
+"of transactional spending data."
+msgstr ""
+"Una transacción de gasto relacionada con el proceso de contratación. Se basa"
+" en los modelos de datos del [Fiscal Data "
+"Package](http://fiscal.dataprotocols.org/) y en la [International Aid "
+"Transparency Initiative](http://iatistandard.org/activity-standard/iati-"
+"activities/iati-activity/transaction/) y debe utilizarse para las "
+"referencias cruzadas a información más detallada, utilizando el paquete de "
+"datos fiscales, un archivo IATI o para proporcionar información suficiente "
+"para permitir que un usuario realice una referencia cruzada manual o "
+"automática con alguna otra fuente publicada de Datos de gastos "
+"transaccionales."
+
+#. /definitions/Transaction/properties/id/description
+#: schema/release-schema.json:1
+msgid ""
+"A unique identifier for this transaction. This identifier should be possible"
+" to cross-reference against the provided data source. For IATI this is the "
+"transaction reference."
+msgstr ""
+"Dígitos que identifican el pago asociado con el contrato.\n"
+"En el caso de los ramos administrativos del Gobierno Federal, se trata del número consecutivo que identifica la Cuenta por Liquidar Certificada (CLC). La CLC es un documento mediante el cual las dependencias realizan el pago y registro de las operaciones presupuestarias con cargo al Presupuesto de Egresos."
+
+#. /definitions/Transaction/properties/source/title
+#: schema/release-schema.json:1
+msgid "Data source"
+msgstr "Fuente de datos"
+
+#. /definitions/Transaction/properties/source/description
+#: schema/release-schema.json:1
+msgid ""
+"Used to point either to a corresponding Fiscal Data Package, IATI file, or "
+"machine or human-readable source where users can find further information on"
+" the budget line item identifiers, or project identifiers, provided here."
+msgstr ""
+"Descripción de la clave que corresponde a las asignaciones conforme al "
+"origen de su financiamiento de acuerdo con la relación de fuentes de "
+"financiamiento emitidas por el Consejo Nacional de Armonización Contable "
+"(CONAC). Ejemplos: Recursos fiscales, financiamientos externos, ingresos "
+"propios, etc."
+
+#. /definitions/Transaction/properties/date/title
+#: schema/release-schema.json:1
+msgid "Date"
+msgstr "Fecha de la transacción"
+
+#. /definitions/Transaction/properties/date/description
+#: schema/release-schema.json:1
+msgid "The date of the transaction"
+msgstr ""
+"Fecha en que se realiza la transacción para el pago asociado con el "
+"contrato."
+
+#. /definitions/Transaction/properties/value/description
+#: schema/release-schema.json:1
+msgid "The value of the transaction."
+msgstr ""
+"El valor económico de la transacción realizada relacionada con el pago "
+"asociado con el contrato."
+
+#. /definitions/Transaction/properties/payer/title
+#: schema/release-schema.json:1
+msgid "Payer"
+msgstr "Pagador"
+
+#. /definitions/Transaction/properties/payer/description
+#: schema/release-schema.json:1
+msgid ""
+"An organization reference for the organization from which the funds in this "
+"transaction originate."
+msgstr "Organización de la que provienen los fondos de la transacción."
+
+#. /definitions/Transaction/properties/payee/title
+#: schema/release-schema.json:1
+msgid "Payee"
+msgstr "Beneficiario"
+
+#. /definitions/Transaction/properties/payee/description
+#: schema/release-schema.json:1
+msgid ""
+"An organization reference for the organization which receives the funds in "
+"this transaction."
+msgstr "Persona física o moral que recibe los fondos de la transacción."
+
+#. /definitions/Transaction/properties/uri/title
+#: schema/release-schema.json:1
+msgid "Linked spending information"
+msgstr "Hipervínculo a la información de la transacción"
+
+#. /definitions/Transaction/properties/uri/description
+#: schema/release-schema.json:1
+msgid ""
+"A URI pointing directly to a machine-readable record about this spending "
+"transaction."
+msgstr ""
+"URI o hipervínculo a un registro digital procesable por máquina que contenga"
+" la información sobre la transacción para el pago relacionado con el "
+"contrato."
+
+#. /definitions/Transaction/properties/amount/description
+#: schema/release-schema.json:1
+msgid ""
+"(Deprecated in 1.1. Use transaction.value instead) The value of the "
+"transaction. A negative value indicates a refund or correction."
+msgstr ""
+"El valor económico de la transacción realizada relacionada con el pago "
+"asociado con el contrato."
+
+#. /definitions/Transaction/properties/amount/deprecated/description
+#. /definitions/TransactionUnversioned/properties/amount/deprecated/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid ""
+"This field has been replaced by the `transaction.value` field for "
+"consistency with the use of value and amount elsewhere in the standard."
+msgstr ""
+"Este campo ha sido reemplazado por el campo valor de la transacción por  "
+"motivos de coherencia en el uso de valor y cantidad en otras secciones de la"
+" norma."
+
+#. /definitions/Transaction/properties/providerOrganization/title
+#: schema/release-schema.json:1
+msgid "Provider organization"
+msgstr "Emisor de la transacción"
+
+#. /definitions/Transaction/properties/providerOrganization/description
+#: schema/release-schema.json:1
+msgid ""
+"(Deprecated in 1.1. Use transaction.payer instead.) The Organization "
+"Identifier for the organization from which the funds in this transaction "
+"originate. Expressed following the Organizational Identifier standard - "
+"consult the documentation and the codelist."
+msgstr ""
+"Ente público que realiza la transacción para el pago asociado con el "
+"contrato."
+
+#. /definitions/Transaction/properties/providerOrganization/deprecated/description
+#. /definitions/TransactionUnversioned/properties/providerOrganization/deprecated/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid ""
+"This field has been replaced by the `transaction.payer` field to resolve "
+"ambiguity arising from 'provider' being interpreted as relating to the goods"
+" or services procured rather than the flow of funds between the parties."
+msgstr ""
+"Este campo ha sido sustituido por el campo `transacción.pagador` para "
+"resolver la ambigüedad derivada del 'proveedor' que se interpreta como "
+"relacionada con los bienes o servicios adquiridos en lugar del flujo de "
+"fondos entre las partes."
+
+#. /definitions/Transaction/properties/receiverOrganization/title
+#: schema/release-schema.json:1
+msgid "Receiver organization"
+msgstr "Receptor de la transacción"
+
+#. /definitions/Transaction/properties/receiverOrganization/description
+#: schema/release-schema.json:1
+msgid ""
+"(Deprecated in 1.1. Use transaction.payee instead). The Organization "
+"Identifier for the organization which receives the funds in this "
+"transaction. Expressed following the Organizational Identifier standard - "
+"consult the documentation and the codelist."
+msgstr ""
+"Proveedor o contratista que recibe la transacción para el pago asociado con "
+"el contrato."
+
+#. /definitions/Transaction/properties/receiverOrganization/deprecated/description
+#. /definitions/TransactionUnversioned/properties/receiverOrganization/deprecated/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid ""
+"This field has been replaced by the `transaction.payee` field to resolve "
+"ambiguity arising from 'receiver' being interpreted as relating to the goods"
+" or services procured rather than the flow of funds between the parties."
+msgstr ""
+"Este campo ha sido sustituido por el campo `transacción.beneficiario` para "
+"resolver la ambigüedad derivada del 'receptor' que se interpreta como que se"
+" relaciona con los bienes o servicios adquiridos en lugar del flujo de "
+"fondos entre las partes."
+
+#. /definitions/OrganizationReference/properties/name/description
+#: schema/release-schema.json:1
+msgid ""
+"The name of the party being referenced. This must match the name of an entry"
+" in the parties section."
+msgstr ""
+"El nombre del integrante al que se hace referencia. Debe coincidir con el "
+"nombre capturado en la sección Integrantes."
+
+#. /definitions/OrganizationReference/properties/name/title
+#: schema/release-schema.json:1
+msgid "Organization name"
+msgstr "Nombre del integrante"
+
+#. /definitions/OrganizationReference/properties/id/description
+#: schema/release-schema.json:1
+msgid ""
+"The id of the party being referenced. This must match the id of an entry in "
+"the parties section."
+msgstr ""
+"El identificador del integrante al que se hace referencia por medio del "
+"atributo parties.id. Este campo se utiliza para hacer referencias cruzadas."
+
+#. /definitions/OrganizationReference/properties/id/title
+#: schema/release-schema.json:1
+msgid "Organization ID"
+msgstr "Identificador de la organización"
+
+#. /definitions/OrganizationReference/properties/identifier/title
+#. /definitions/Organization/properties/identifier/title
+#: schema/release-schema.json:1
+msgid "Primary identifier"
+msgstr "Identificador principal"
+
+#. /definitions/OrganizationReference/properties/identifier/description
+#: schema/release-schema.json:1
+msgid ""
+"The primary identifier for this organization. Identifiers that uniquely pick"
+" out a legal entity should be preferred. Consult the [organization "
+"identifier guidance](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/identifiers/) for the preferred "
+"scheme and identifier to use."
+msgstr ""
+"El identificador principal de esta organización o participante. Los "
+"identificadores que señalan exclusivamente una entidad legal deben ser "
+"preferidos. Consulte la [organization identifier guidance](http://standard"
+".open-contracting.org/latest/es_MX/schema/identifiers/) para el esquema "
+"preferido y el identificador a utilizar."
+
+#. /definitions/OrganizationReference/properties/identifier/deprecated/description
+#. /definitions/OrganizationReferenceUnversioned/properties/identifier/deprecated/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid ""
+"From version 1.1, organizations should be referenced by their identifier and"
+" name in a document, and detailed legal identifier information should only "
+"be provided in the relevant cross-referenced entry in the parties section at"
+" the top level of a release."
+msgstr ""
+"A partir de la versión 1.1, las organizaciones deben referenciarse en un "
+"documento con su identificador y nombre, y el detalle de la información del "
+"identificador principal sólo deberá ser provisto en las referencias cruzadas"
+" en las que participen los integrantes, en la sección inicial de la "
+"publicación"
+
+#. /definitions/OrganizationReference/properties/address/deprecated/description
+#. /definitions/OrganizationReferenceUnversioned/properties/address/deprecated/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid ""
+"From version 1.1, organizations should be referenced by their identifier and"
+" name in a document, and address information should only be provided in the "
+"relevant cross-referenced entry in the parties section at the top level of a"
+" release."
+msgstr ""
+"A partir de la versión 1.1, las organizaciones deben referenciarse en un "
+"documento con su identificador y debe proporcionarse la información de "
+"dirección en la entrada de referencia de la sección de integrantes."
+
+#. /definitions/OrganizationReference/properties/address/description
+#. /definitions/OrganizationReference/properties/contactPoint/description
+#: schema/release-schema.json:1
+msgid "(Deprecated outside the parties section)"
+msgstr "(Censurado fuera de la sección de integrantes)"
+
+#. /definitions/OrganizationReference/properties/address/title
+#. /definitions/Address/title
+#: schema/release-schema.json:1
+msgid "Address"
+msgstr "Domicilio"
+
+#. /definitions/OrganizationReference/properties/additionalIdentifiers/deprecated/description
+#. /definitions/OrganizationReference/properties/additionalIdentifiers/items/properties/value/deprecated/description
+#. /definitions/OrganizationReferenceUnversioned/properties/additionalIdentifiers/deprecated/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid ""
+"From version 1.1, organizations should be referenced by their identifier and"
+" name in a document, and additional identifiers for an organization should "
+"be provided in the relevant cross-referenced entry in the parties section at"
+" the top level of a release."
+msgstr ""
+"A partir de la versión 1.1, las organizaciones deben referenciarse en un "
+"documento con su identificador y deben proporcionar identificadores "
+"adicionales en la entrada de referencia de la sección de integrantes."
+
+#. /definitions/OrganizationReference/properties/additionalIdentifiers/title
+#. /definitions/Organization/properties/additionalIdentifiers/title
+#: schema/release-schema.json:1
+msgid "Additional identifiers"
+msgstr "Identificadores adicionales"
+
+#. /definitions/OrganizationReference/properties/additionalIdentifiers/description
+#: schema/release-schema.json:1
+msgid ""
+"(Deprecated outside the parties section) A list of additional / supplemental"
+" identifiers for the organization, using the [organization identifier "
+"guidance](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/identifiers/). This could be "
+"used to provide an internally used identifier for this organization in "
+"addition to the primary legal entity identifier."
+msgstr ""
+"(Desaprobado fuera de la sección de los integrantes) Una lista de "
+"identificadores adicionales / complementarios para la organización, "
+"utilizando la [organization identifier guidance](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/identifiers/). Esto podría "
+"utilizarse para proporcionar un identificador interno utilizado por la "
+"organización en adición al identificador principal."
+
+#. /definitions/OrganizationReference/properties/contactPoint/deprecated/description
+#. /definitions/OrganizationReferenceUnversioned/properties/contactPoint/deprecated/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid ""
+"From version 1.1, organizations should be referenced by their identifier and"
+" name in a document, and contact point information for an organization "
+"should be provided in the relevant cross-referenced entry in the parties "
+"section at the top level of a release."
+msgstr ""
+"A partir de la versión 1.1, las organizaciones deben referenciarse en un "
+"documento con su identificador y  debe proporcionarse la información del "
+"punto de contacto de la organización en la entrada de referencia de la "
+"sección de integrantes."
+
+#. /definitions/OrganizationReference/properties/contactPoint/title
+#. /definitions/ContactPoint/title
+#: schema/release-schema.json:1
+msgid "Contact point"
+msgstr "Punto de contacto"
+
+#. /definitions/OrganizationReference/description
+#: schema/release-schema.json:1
+msgid ""
+"The id and name of the party being referenced. Used to cross-reference to "
+"the parties section"
+msgstr ""
+"El comprador se refiere al área administrativa que tiene asignado el "
+"presupuesto que se utilizará para la contratación. Ésta puede ser diferente "
+"a la área administrativa encargada de realizar la contratación."
+
+#. /definitions/OrganizationReference/title
+#: schema/release-schema.json:1
+msgid "Organization reference"
+msgstr "Referencia de la organización"
+
+#. /definitions/Organization/title
+#: schema/release-schema.json:1
+msgid "Organization"
+msgstr "Organización"
+
+#. /definitions/Organization/description
+#: schema/release-schema.json:1
+msgid "A party (organization)"
+msgstr ""
+"Integrante en el procedimiento de contratación (éste puede ser una persona "
+"física o moral, o área de la institución pública)."
+
+#. /definitions/Organization/properties/name/title
+#: schema/release-schema.json:1
+msgid "Common name"
+msgstr "Nombre común"
+
+#. /definitions/Organization/properties/name/description
+#: schema/release-schema.json:1
+msgid ""
+"A common name for this organization or other participant in the contracting "
+"process. The identifier object provides an space for the formal legal name, "
+"and so this may either repeat that value, or could provide the common name "
+"by which this organization or entity is known. This field may also include "
+"details of the department or sub-unit involved in this contracting process."
+msgstr ""
+"Nombre común por el que se conoce a esta persona física o moral, o del área "
+"de la institución pública en el procedimiento de contratación. El apartado "
+"de identificación provee un espacio para registrar el nombre formal o razón "
+"social, por lo que éste puede repetir ese valor o puede referirse al nombre "
+"común por el cual es conocida la organización."
+
+#. /definitions/Organization/properties/id/description
+#: schema/release-schema.json:1
+msgid ""
+"The ID used for cross-referencing to this party from other sections of the "
+"release. This field may be built with the following structure "
+"{identifier.scheme}-{identifier.id}(-{department-identifier})."
+msgstr ""
+"El identificador utilizado para hacer referencias cruzadas a este actor "
+"desde otras secciones del esquema. Este campo puede ser construido de "
+"acuerdo con la siguiente estructura: {identifier.scheme} - {identifier.id} "
+"(- {department-identifier})."
+
+#. /definitions/Organization/properties/id/title
+#: schema/release-schema.json:1
+msgid "Entity ID"
+msgstr "Identificador de la organización"
+
+#. /definitions/Organization/properties/identifier/description
+#: schema/release-schema.json:1
+msgid ""
+"The primary identifier for this organization or participant. Identifiers "
+"that uniquely pick out a legal entity should be preferred. Consult the "
+"[organization identifier guidance](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/identifiers/) for the preferred "
+"scheme and identifier to use."
+msgstr ""
+"El identificador principal de esta organización o participante. Los "
+"identificadores que señalan exclusivamente una entidad legal deben ser "
+"preferidos. Consulte la [organization identifier guidance](http://standard"
+".open-contracting.org/{{version}}/{{lang}}/schema/identifiers/) para el "
+"esquema preferido y el identificador a utilizar."
+
+#. /definitions/Organization/properties/additionalIdentifiers/description
+#: schema/release-schema.json:1
+msgid ""
+"A list of additional / supplemental identifiers for the organization or "
+"participant, using the [organization identifier guidance](http://standard"
+".open-contracting.org/{{version}}/{{lang}}/schema/identifiers/). This could "
+"be used to provide an internally used identifier for this organization in "
+"addition to the primary legal entity identifier."
+msgstr ""
+"Una lista de identificadores adicionales / complementarios para la "
+"organización o el participante, utilizando la [organization identifier "
+"guidance](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/identifiers/). Esto podría "
+"utilizarse para proporcionar un identificador interno utilizado por la "
+"organización en adición al identificador principal."
+
+#. /definitions/Organization/properties/roles/title
+#: schema/release-schema.json:1
+msgid "Party roles"
+msgstr "Funciones del integrante"
+
+#. /definitions/Organization/properties/roles/description
+#: schema/release-schema.json:1
+msgid ""
+"The party's role(s) in the contracting process. Role(s) should be taken from"
+" the [partyRole codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#party-role). Values "
+"from the provided codelist should be used wherever possible, though extended"
+" values can be provided if the codelist does not have a relevant code."
+msgstr ""
+"Las funcione(s) del integrante en el procedimiento de contratación. Esta(s) "
+"funciones deben ser tomados de [partyRole codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#party-role). Los "
+"valores de la lista de códigos proporcionada deben usarse siempre que sea "
+"posible, aunque se pueden proporcionar otros valores si la lista de códigos "
+"no tiene uno pertinente."
+
+#. /definitions/Organization/properties/details/description
+#: schema/release-schema.json:1
+msgid ""
+"Additional classification information about parties can be provided using "
+"partyDetail extensions that define particular properties and classification "
+"schemes. "
+msgstr ""
+"Se puede proporcionar información de clasificación adicional relacionada con"
+" los involucrados usando las extensiones partyDetail que definen propiedades"
+" y esquemas de clasificación particulares."
+
+#. /definitions/Organization/properties/details/title
+#: schema/release-schema.json:1
+msgid "Details"
+msgstr "Detalles"
+
+#. /definitions/Item/title
+#: schema/release-schema.json:1
+msgid "Item"
+msgstr "Ítem"
+
+#. /definitions/Item/description
+#: schema/release-schema.json:1
+msgid "A good, service, or work to be contracted."
+msgstr "Bien, servicio u obra a adquirir o contratar."
+
+#. /definitions/Item/properties/id/description
+#: schema/release-schema.json:1
+msgid ""
+"A local identifier to reference and merge the items by. Must be unique "
+"within a given array of items."
+msgstr ""
+"Identificador para el bien, servicio u obra pública. Debe de ser único en "
+"relación a los demás ítems del arreglo."
+
+#. /definitions/Item/properties/description/description
+#: schema/release-schema.json:1
+msgid "A description of the goods, services to be provided."
+msgstr ""
+"Descripción de las características de cada bien, o servicio, o de las "
+"especificaciones técnicas de la obra pública."
+
+#. /definitions/Item/properties/classification/title
+#. /definitions/Classification/title
+#: schema/release-schema.json:1
+msgid "Classification"
+msgstr "Clasificación aplicable al bien, servicio u obra pública"
+
+#. /definitions/Item/properties/classification/description
+#: schema/release-schema.json:1
+msgid ""
+"The primary classification for the item. See the "
+"[itemClassificationScheme](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#item-classification-"
+"scheme) to identify preferred classification lists, including CPV and GSIN."
+msgstr ""
+"La clasificación principal aplicable al bien, servicio u obra pública. "
+"Consulte el esquema de clasificación de artículos "
+"[itemClassificationScheme](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#item-classification-"
+"scheme)."
+
+#. /definitions/Item/properties/additionalClassifications/title
+#: schema/release-schema.json:1
+msgid "Additional classifications"
+msgstr "Otras clasificaciones aplicables al bien, servicio u obra pública"
+
+#. /definitions/Item/properties/additionalClassifications/description
+#: schema/release-schema.json:1
+msgid ""
+"An array of additional classifications for the item. See the "
+"[itemClassificationScheme](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#item-classification-"
+"scheme) codelist for common options to use in OCDS. This may also be used to"
+" present codes from an internal classification scheme."
+msgstr ""
+"Una serie de clasificaciones adicionales para el elemento. Para opciones "
+"comunes de uso en OCDS, consulte la lista de códigos "
+"[itemClassificationScheme](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#item-classification-"
+"scheme). Esto también se puede utilizar para presentar códigos de un esquema"
+" de clasificación interna."
+
+#. /definitions/Item/properties/quantity/title
+#: schema/release-schema.json:1
+msgid "Quantity"
+msgstr "Cantidad por tipo de bien, servicio u obra pública"
+
+#. /definitions/Item/properties/quantity/description
+#: schema/release-schema.json:1
+msgid "The number of units required"
+msgstr "Cantidad en número de bienes, servicios u obra pública."
+
+#. /definitions/Item/properties/unit/title
+#: schema/release-schema.json:1
+msgid "Unit"
+msgstr ""
+"Unidad de medida en la que se especifica la cantidad de bienes, servicios u "
+"obras públicas"
+
+#. /definitions/Item/properties/unit/description
+#: schema/release-schema.json:1
+msgid ""
+"A description of the unit in which the supplies, services or works are "
+"provided (e.g. hours, kilograms) and the unit-price. For comparability, an "
+"established list of units can be used.  "
+msgstr ""
+"Unidad de medida en la que se especifica la cantidad del bien, servicio u "
+"obra pública."
+
+#. /definitions/Item/properties/unit/properties/scheme/description
+#. /definitions/ItemUnversioned/properties/unit/properties/scheme/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid ""
+"The list from which units of measure identifiers are taken. This should be "
+"an entry from the options available in the "
+"[unitClassificationScheme](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#unit-classification-"
+"scheme) codelist. Use of the scheme 'UNCEFACT' for the UN/CEFACT "
+"Recommendation 20 list of 'Codes for Units of Measure Used in International "
+"Trade' is recommended, although other options are available."
+msgstr ""
+"La lista desde la cual se toman los las unidades de medida. Ésta debe "
+"coincidir con la lista de códigos [unitClassificationScheme](http://standard"
+".open-contracting.org/{{version}}/{{lang}}/schema/codelists/#unit-"
+"classification-scheme). Se recomienda el uso del esquema \"UNCEFACT\" , la "
+"UN/CEFACT recomienda una lista de 20 unidades de medida utilizadas en el "
+"comercio internacional, aunque otras opciones se encuentre disponibles."
+
+#. /definitions/Item/properties/unit/properties/id/description
+#. /definitions/ItemUnversioned/properties/unit/properties/id/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid ""
+"The identifier from the codelist referenced in the scheme property. Check "
+"the codelist for details of how to find and use identifiers from the scheme "
+"in use."
+msgstr ""
+"El identificador de la lista de códigos se hace referencia en la propiedad "
+"del esquema. Consulte la lista de códigos para obtener detalles sobre cómo "
+"encontrar y utilizar identificadores del esquema en uso."
+
+#. /definitions/Item/properties/unit/properties/name/description
+#. /definitions/ItemUnversioned/properties/unit/properties/name/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid "Name of the unit."
+msgstr "Nombre de la unidad de medida."
+
+#. /definitions/Item/properties/unit/properties/value/description
+#. /definitions/ItemUnversioned/properties/unit/properties/value/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid "The monetary value of a single unit."
+msgstr "Precio unitario sin impuestos."
+
+#. /definitions/Item/properties/unit/properties/uri/description
+#. /definitions/ItemUnversioned/properties/unit/properties/uri/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid ""
+"If the scheme used provide a machine-readable URI for this unit of measure, "
+"this can be given."
+msgstr ""
+"Si el esquema utilizado para esta unidad de medida provee un vínculo de "
+"lectura automática en línea, esto puede ser aceptado."
+
+#. /definitions/Amendment/description
+#: schema/release-schema.json:1
+msgid "Amendment information"
+msgstr "Información de la modificación"
+
+#. /definitions/Amendment/properties/date/title
+#: schema/release-schema.json:1
+msgid "Amendment date"
+msgstr "Fecha en que se realiza la modificación"
+
+#. /definitions/Amendment/properties/date/description
+#: schema/release-schema.json:1
+msgid "The date of this amendment."
+msgstr ""
+"Fecha y hora de la publicación en CompraNet (cuando aplique) de la "
+"modificación a la convocatoria o de la entrega del último comunicado de la "
+"modificación a los invitados."
+
+#. /definitions/Amendment/properties/rationale/description
+#: schema/release-schema.json:1
+msgid "An explanation for the amendment."
+msgstr "Razones por las cuales se realiza la modificación."
+
+#. /definitions/Amendment/properties/id/description
+#: schema/release-schema.json:1
+msgid "An identifier for this amendment: often the amendment number"
+msgstr ""
+"Un identificador para esta modificación. A menudo el número de la "
+"modificación."
+
+#. /definitions/Amendment/properties/description/description
+#: schema/release-schema.json:1
+msgid ""
+"A free text, or semi-structured, description of the changes made in this "
+"amendment."
+msgstr ""
+"Una descripción en texto libre, o semi-estructurada, de los cambios "
+"realizados en esta modificación."
+
+#. /definitions/Amendment/properties/amendsReleaseID/description
+#: schema/release-schema.json:1
+msgid ""
+"Provide the identifier (release.id) of the OCDS release (from this "
+"contracting process) that provides the values for this contracting process "
+"**before** the amendment was made."
+msgstr ""
+"Se refiere al identificador de la publicación (release.id) para este "
+"procedimiento de contratación ** antes ** de que la modificación fue "
+"realizada."
+
+#. /definitions/Amendment/properties/amendsReleaseID/title
+#: schema/release-schema.json:1
+msgid "Amended release (identifier)"
+msgstr "Publicación modificada (identificador)"
+
+#. /definitions/Amendment/properties/releaseID/description
+#: schema/release-schema.json:1
+msgid ""
+"Provide the identifier (release.id) of the OCDS release (from this "
+"contracting process) that provides the values for this contracting process "
+"**after** the amendment was made."
+msgstr ""
+"Se refiere al identificador de la publicación (release.id) para este "
+"procedimiento de contratación ** después ** de que la modificación fue "
+"realizada."
+
+#. /definitions/Amendment/properties/releaseID/title
+#: schema/release-schema.json:1
+msgid "Amending release (identifier)"
+msgstr "Publicación de la modificación (identificador)"
+
+#. /definitions/Amendment/properties/changes/title
+#: schema/release-schema.json:1
+msgid "Amended fields"
+msgstr "Modificación que se realiza"
+
+#. /definitions/Amendment/properties/changes/description
+#: schema/release-schema.json:1
+msgid ""
+"An array change objects describing the fields changed, and their former "
+"values. (Deprecated in 1.1)"
+msgstr ""
+"Síntesis de la modificación realizada a la convocatoria a la licitación "
+"pública o a la invitación a cuando menos tres personas."
+
+#. /definitions/Amendment/properties/changes/items/properties/property/title
+#. /definitions/AmendmentUnversioned/properties/changes/items/properties/property/title
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid "Property"
+msgstr "Atributo"
+
+#. /definitions/Amendment/properties/changes/items/properties/property/description
+#. /definitions/AmendmentUnversioned/properties/changes/items/properties/property/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid ""
+"The property name that has been changed relative to the place the amendment "
+"is. For example if the contract value has changed, then the property under "
+"changes within the contract.amendment would be value.amount. (Deprecated in "
+"1.1)"
+msgstr ""
+"El nombre de la propiedad o atributo que ha cambiado. Por ejemplo, si el "
+"valor del contrato ha cambiado, entonces la modificación sería para "
+"contract.value.amount."
+
+#. /definitions/Amendment/properties/changes/items/properties/former_value/title
+#. /definitions/AmendmentUnversioned/properties/changes/items/properties/former_value/title
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid "Former Value"
+msgstr "Valor inicial"
+
+#. /definitions/Amendment/properties/changes/items/properties/former_value/description
+#. /definitions/AmendmentUnversioned/properties/changes/items/properties/former_value/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid ""
+"The previous value of the changed property, in whatever type the property "
+"is. (Deprecated in 1.1)"
+msgstr "El valor anterior a la modificación, en cualquier tipo de propiedad."
+
+#. /definitions/Amendment/properties/changes/deprecated/description
+#. /definitions/AmendmentUnversioned/properties/changes/deprecated/description
+#: schema/release-schema.json:1
+#: schema/versioned-release-validation-schema.json:1
+msgid ""
+"A free-text or semi-structured string describing the changes made in each "
+"amendment can be provided in the amendment.description field. To provide "
+"structured information on the fields that have changed, publishers should "
+"provide releases indicating the state of the contracting process before and "
+"after the amendment.  "
+msgstr ""
+"En el campo descripción de la modificación puede ser proporcionada una "
+"cadena de texto libre o semiestructurada que describa los cambios realizados"
+" en cada modificación. Para proporcionar información estructurada sobre los "
+"campos que han cambiado, los editores deben proporcionar comunicados que "
+"indiquen el estado del proceso de contratación antes y después de la "
+"modificación."
+
+#. /definitions/Classification/properties/scheme/description
+#: schema/release-schema.json:1
+msgid ""
+"An classification should be drawn from an existing scheme or list of codes. "
+"This field is used to indicate the scheme/codelist from which the "
+"classification is drawn. For line item classifications, this value should "
+"represent an known [Item Classification Scheme](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#item-classification-"
+"scheme) wherever possible."
+msgstr ""
+"La clasificación debe ser obtenida de un esquema o una lista de códigos "
+"existente. Este campo se utiliza para indicar el esquema / lista de códigos "
+"de los que se extrae la clasificación. Para las clasificaciones de partidas "
+"individuales, el valor debe corresponder con la [Item Classification "
+"Scheme](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#item-classification-"
+"scheme) siempre que sea posible."
+
+#. /definitions/Classification/properties/id/description
+#: schema/release-schema.json:1
+msgid "The classification code drawn from the selected scheme."
+msgstr ""
+"Número que identifica al bien, servicio u obra pública objeto del "
+"procedimiento de contratación, obtenido del esquema o lista de códigos "
+"definidos. Cuando aplique, se registrará la clave CUCOP contenida en "
+"CompraNet."
+
+#. /definitions/Classification/properties/description/description
+#: schema/release-schema.json:1
+msgid "A textual description or title for the code."
+msgstr ""
+"Descripción relacionada con la clave del bien, servicio u obra pública "
+"objeto del procedimiento de contratación, obtenido del esquema o lista de "
+"códigos definidos. Cuando aplique, se registrará la descripción de la clave "
+"CUCOP contenida en CompraNet."
+
+#. /definitions/Classification/properties/uri/description
+#: schema/release-schema.json:1
+msgid ""
+"A URI to identify the code. In the event individual URIs are not available "
+"for items in the identifier scheme this value should be left blank."
+msgstr ""
+"Una URI para identificar la clave del clasificador único del bien, servicio "
+"u obra pública. En caso de que las URI no estén disponibles de manera "
+"individual para los elementos del esquema de clasificación, este valor debe "
+"dejarse en blanco."
+
+#. /definitions/Identifier/title
+#. /definitions/RelatedProcess/properties/identifier/title
+#: schema/release-schema.json:1
+msgid "Identifier"
+msgstr "Identificador"
+
+#. /definitions/Identifier/properties/scheme/description
+#: schema/release-schema.json:1
+msgid ""
+"Organization identifiers should be drawn from an existing organization "
+"identifier list. The scheme field is used to indicate the list or register "
+"from which the identifier is drawn. This value should be drawn from the "
+"[Organization Identifier Scheme](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#organization-"
+"identifier-scheme) codelist."
+msgstr ""
+"Los identificadores de la organización deben extraerse de una lista de "
+"identificadores existente. El campo esquema se utiliza para indicar el "
+"nombre de la lista o registro del que se extrae el identificador. Este valor"
+" debe obtenerse de la lista de códigos [Organization Identifier "
+"Scheme](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#organization-"
+"identifier-scheme)."
+
+#. /definitions/Identifier/properties/id/description
+#: schema/release-schema.json:1
+msgid "The identifier of the organization in the selected scheme."
+msgstr ""
+"El identificador de la persona física o moral, o del área de la institución "
+"pública."
+
+#. /definitions/Identifier/properties/legalName/title
+#: schema/release-schema.json:1
+msgid "Legal Name"
+msgstr "Nombre o razón social"
+
+#. /definitions/Identifier/properties/legalName/description
+#: schema/release-schema.json:1
+msgid "The legally registered name of the organization."
+msgstr "Nombre o razón social."
+
+#. /definitions/Identifier/properties/uri/description
+#: schema/release-schema.json:1
+msgid ""
+"A URI to identify the organization, such as those provided by [Open "
+"Corporates](http://www.opencorporates.com) or some other relevant URI "
+"provider. This is not for listing the website of the organization: that can "
+"be done through the URL field of the Organization contact point."
+msgstr ""
+"Una URI para identificar a la organización, como las proporcionadas por "
+"[Open Corporates] (http://www.opencorporates.com) u otro proveedor de URI "
+"relevante. Este campo no se utiliza para mostrar el sitio web de la "
+"organización, lo cual se puede hacer a través del campo URL del punto de "
+"contacto de la organización."
+
+#. /definitions/Address/description
+#: schema/release-schema.json:1
+msgid ""
+"An address. This may be the legally registered address of the organization, "
+"or may be a correspondence address for this particular contracting process."
+msgstr ""
+"Domicilio de la persona física o moral, o del área de la institución "
+"pública."
+
+#. /definitions/Address/properties/streetAddress/title
+#: schema/release-schema.json:1
+msgid "Street address"
+msgstr "Calle y número"
+
+#. /definitions/Address/properties/streetAddress/description
+#: schema/release-schema.json:1
+msgid "The street address. For example, 1600 Amphitheatre Pkwy."
+msgstr "Calle y número. Por ejemplo, Insurgentes Sur 1600."
+
+#. /definitions/Address/properties/locality/title
+#: schema/release-schema.json:1
+msgid "Locality"
+msgstr "Delegación o municipio"
+
+#. /definitions/Address/properties/locality/description
+#: schema/release-schema.json:1
+msgid "The locality. For example, Mountain View."
+msgstr "Delegación o municipio. Por ejemplo, Coyoacán."
+
+#. /definitions/Address/properties/region/title
+#: schema/release-schema.json:1
+msgid "Region"
+msgstr "Entidad federativa"
+
+#. /definitions/Address/properties/region/description
+#: schema/release-schema.json:1
+msgid "The region. For example, CA."
+msgstr "Entidad federativa. Por ejemplo, Michoacán de Ocampo."
+
+#. /definitions/Address/properties/postalCode/title
+#: schema/release-schema.json:1
+msgid "Postal code"
+msgstr "Código postal"
+
+#. /definitions/Address/properties/postalCode/description
+#: schema/release-schema.json:1
+msgid "The postal code. For example, 94043."
+msgstr "Código postal. Por ejemplo, 94043."
+
+#. /definitions/Address/properties/countryName/title
+#: schema/release-schema.json:1
+msgid "Country name"
+msgstr "País"
+
+#. /definitions/Address/properties/countryName/description
+#: schema/release-schema.json:1
+msgid "The country name. For example, United States."
+msgstr "País. Por ejemplo, México."
+
+#. /definitions/ContactPoint/description
+#: schema/release-schema.json:1
+msgid ""
+"An person, contact point or department to contact in relation to this "
+"contracting process."
+msgstr ""
+"Persona o área administrativa que funge como punto de contacto en relación "
+"con este procedimiento de contratación."
+
+#. /definitions/ContactPoint/properties/name/description
+#: schema/release-schema.json:1
+msgid ""
+"The name of the contact person, department, or contact point, for "
+"correspondence relating to this contracting process."
+msgstr ""
+"El nombre de la persona o área administrativa que funge como punto de "
+"contacto para recibir notificaciones en relación con este procedimiento de "
+"contratación."
+
+#. /definitions/ContactPoint/properties/email/title
+#: schema/release-schema.json:1
+msgid "Email"
+msgstr "Correo electrónico"
+
+#. /definitions/ContactPoint/properties/email/description
+#: schema/release-schema.json:1
+msgid "The e-mail address of the contact point/person."
+msgstr "Correo electrónico del punto de contacto."
+
+#. /definitions/ContactPoint/properties/telephone/title
+#: schema/release-schema.json:1
+msgid "Telephone"
+msgstr "Teléfono"
+
+#. /definitions/ContactPoint/properties/telephone/description
+#: schema/release-schema.json:1
+msgid ""
+"The telephone number of the contact point/person. This should include the "
+"international dialing code."
+msgstr ""
+"El número de teléfono del punto de contacto / persona. Éste debe incluir el "
+"código de marcación internacional."
+
+#. /definitions/ContactPoint/properties/faxNumber/title
+#: schema/release-schema.json:1
+msgid "Fax number"
+msgstr "Número de fax"
+
+#. /definitions/ContactPoint/properties/faxNumber/description
+#: schema/release-schema.json:1
+msgid ""
+"The fax number of the contact point/person. This should include the "
+"international dialing code."
+msgstr ""
+"El número de fax del punto de contacto / persona. Éste debe incluir el "
+"código de marcación internacional."
+
+#. /definitions/ContactPoint/properties/url/description
+#: schema/release-schema.json:1
+msgid "A web address for the contact point/person."
+msgstr "Dirección web del punto de contacto."
+
+#. /definitions/Value/properties/amount/description
+#: schema/release-schema.json:1
+msgid "Amount as a number."
+msgstr "Monto como número."
+
+#. /definitions/Value/properties/currency/title
+#: schema/release-schema.json:1
+msgid "Currency"
+msgstr "Moneda"
+
+#. /definitions/Value/properties/currency/description
+#: schema/release-schema.json:1
+msgid ""
+"The currency for each amount should always be specified using the uppercase "
+"3-letter currency code from ISO4217."
+msgstr "La moneda en el formato ISO 4217 de 3 letras."
+
+#. /definitions/Period/description
+#: schema/release-schema.json:1
+msgid "    "
+msgstr " ."
+
+#. /definitions/Period/properties/startDate/title
+#: schema/release-schema.json:1
+msgid "Start date"
+msgstr "Fecha de inicio"
+
+#. /definitions/Period/properties/startDate/description
+#: schema/release-schema.json:1
+msgid ""
+"The start date for the period. When known, a precise start date must always "
+"be provided."
+msgstr "Fecha de inicio del periodo."
+
+#. /definitions/Period/properties/endDate/title
+#: schema/release-schema.json:1
+msgid "End date"
+msgstr "Fecha fin"
+
+#. /definitions/Period/properties/endDate/description
+#: schema/release-schema.json:1
+msgid ""
+"The end date for the period. When known, a precise end date must always be "
+"provided."
+msgstr "Fecha de conclusión del periodo."
+
+#. /definitions/Period/properties/maxExtentDate/description
+#: schema/release-schema.json:1
+msgid ""
+"The period cannot be extended beyond this date. This field is optional, and "
+"can be used to express the maximum available data for extension or renewal "
+"of this period."
+msgstr ""
+"El periodo no puede extenderse más allá de esta fecha. Este campo es "
+"opcional y puede usarse para expresar la fecha límite de extensión o "
+"renovación de este período."
+
+#. /definitions/Period/properties/maxExtentDate/title
+#: schema/release-schema.json:1
+msgid "Maximum extent"
+msgstr "Extensión máxima"
+
+#. /definitions/Period/properties/durationInDays/description
+#: schema/release-schema.json:1
+msgid ""
+"The maximum duration of this period in days. A user interface may wish to "
+"collect or display this data in months or years as appropriate, but should "
+"convert it into days when completing this field. This field can be used when"
+" exact dates are not known.  Where a startDate and endDate are given, this "
+"field is optional, and should reflect the difference between those two days."
+" Where a startDate and maxExtentDate are given, this field is optional, and "
+"should reflect the difference between startDate and maxExtentDate."
+msgstr ""
+"Duración máxima de este período en días. Es posible que una interfaz de "
+"usuario desee recopilar o mostrar estos datos en meses o años, según "
+"corresponda, pero debe convertirlos en días al completar este campo. "
+"También, este campo se puede utilizar cuando no se conocen las fechas "
+"exactas. Cuando se tiene startDate y endDate, este campo es opcional y debe "
+"reflejar la diferencia entre esos dos días. Cuando se indica startDate y "
+"maxExtentDate, este campo es opcional y debe reflejar la diferencia entre "
+"startDate y maxExtentDate."
+
+#. /definitions/Period/properties/durationInDays/title
+#: schema/release-schema.json:1
+msgid "Duration (days)"
+msgstr "Duración (días)"
+
+#. /definitions/RelatedProcess/description
+#: schema/release-schema.json:1
+msgid ""
+"A reference to a related contracting process: generally one preceding or "
+"following on from the current process."
+msgstr ""
+"Una referencia a un procedimiento de contratación relacionado: generalmente "
+"uno antes o después del procedimiento actual."
+
+#. /definitions/RelatedProcess/title
+#: schema/release-schema.json:1
+msgid "Related Process"
+msgstr "Procedimiento relacionado"
+
+#. /definitions/RelatedProcess/properties/id/title
+#: schema/release-schema.json:1
+msgid "Relationship ID"
+msgstr "Identificador de la relación"
+
+#. /definitions/RelatedProcess/properties/id/description
+#: schema/release-schema.json:1
+msgid "A local identifier for this relationship, unique within this array."
+msgstr ""
+"Un identificador local para esta relación, único dentro de este arreglo."
+
+#. /definitions/RelatedProcess/properties/relationship/description
+#: schema/release-schema.json:1
+msgid ""
+"Specify the type of relationship using the [related process "
+"codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#related-process)."
+msgstr ""
+"Especifica el tipo de relación que se utiliza, de acuerdo con la [related "
+"process codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#related-process)."
+
+#. /definitions/RelatedProcess/properties/relationship/title
+#: schema/release-schema.json:1
+msgid "Relationship"
+msgstr "Relación"
+
+#. /definitions/RelatedProcess/properties/title/description
+#: schema/release-schema.json:1
+msgid ""
+"The title of the related process, where referencing an open contracting "
+"process, this field should match the tender/title field in the related "
+"process."
+msgstr ""
+"El título del procedimiento relacionado, cuando se hace referencia a un "
+"procedimiento de contratación abierto, debe coincidir con el campo de oferta"
+" / título en el procedimiento relacionado."
+
+#. /definitions/RelatedProcess/properties/title/title
+#: schema/release-schema.json:1
+msgid "Related process title"
+msgstr "Título del procedimiento relacionado"
+
+#. /definitions/RelatedProcess/properties/scheme/description
+#: schema/release-schema.json:1
+msgid ""
+"The identification scheme used by this cross-reference from the [related "
+"process scheme codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#related-process-"
+"scheme) codelist. When cross-referencing information also published using "
+"OCDS, an Open Contracting ID (ocid) should be used."
+msgstr ""
+"El esquema de identificación utilizado por esta referencia cruzada de la "
+"[related process scheme codelist](http://standard.open-"
+"contracting.org/{{version}}/{{lang}}/schema/codelists/#related-process-"
+"scheme). En el caso de información con referencias cruzadas, se debe "
+"publicar utilizando el EDCA, y el Identificador del procedimiento de "
+"contratación (ocid)."
+
+#. /definitions/RelatedProcess/properties/identifier/description
+#: schema/release-schema.json:1
+msgid ""
+"The identifier of the related process. When cross-referencing information "
+"also published using OCDS, this should be the Open Contracting ID (ocid)."
+msgstr ""
+"Identificador del procedimiento relacionado. Cuando la información de "
+"referencias cruzadas también se publica usando el EDCA, éste debe ser el "
+"Identificador del procedimiento de contratación (ocid)."
+
+#. /definitions/RelatedProcess/properties/uri/description
+#: schema/release-schema.json:1
+msgid ""
+"A URI pointing to a machine-readable document, release or record package "
+"containing the identified related process."
+msgstr ""
+"Una URI apuntando a un documento legible por computadora, un paquete "
+"publicado o registro que contenga el procedimiento identificado."
+
+#. /definitions/RelatedProcess/properties/uri/title
+#: schema/release-schema.json:1
+msgid "Related process URI"
+msgstr "URI del procedimiento relacionado"
+
+#. /title
+#: schema/versioned-release-validation-schema.json:1
+msgid "Schema for a compiled, versioned Open Contracting Release."
+msgstr ""
+"Esquema para una versión de Contratación Abierta compilada y versionada."

@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C)
+# This file is distributed under the same license as the OCDS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OCDS 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-12 11:56+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: Spanish (Mexico) (https://www.transifex.com/OpenDataServices/teams/59224/es_MX/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_MX\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../standard/docs/en/schema/release_package.md:0
+msgid "Release Package Schema"
+msgstr ""
+
+#: ../../standard/docs/en/schema/release_package.md:3
+msgid ""
+"The release package schema describes the container document for publishing "
+"releases. The package contains important metadata."
+msgstr ""
+
+#: ../../standard/docs/en/schema/release_package.md:5
+msgid ""
+"You can view an interactive version of the release schema below (requires "
+"JavaScript) or [download this version of the schema here"
+"](../../../../release-package-schema.json)."
+msgstr ""
+
+#: ../../standard/docs/en/schema/release_package.md:7
+msgid ""
+"Click on schema elements to expand the tree, or use the '+' icon to expand "
+"all elements. Use { } to view the underlying schema for any section."
+msgstr ""

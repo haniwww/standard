@@ -8,7 +8,7 @@ pybabel compile --use-fuzzy -d docs/locale -D schema
 pybabel compile --use-fuzzy -d docs/locale -D codelists
 
 cd ..
-python standard/schema/utils/translate_schema.py en es fr
+python standard/schema/utils/translate_schema.py en es fr es_MX
 
 # Create a symlink for the current language, so we can reference the
 # translated JSON schema from Sphinx directives
@@ -26,7 +26,7 @@ cd ..
 cp -r standard/assets build
 
 cd standard
-for lang in es fr; do
+for lang in es fr es_MX; do
     CODELIST_LANG=$lang python schema/utils/translate_codelists.py schema
     CODELIST_LANG=$lang python schema/utils/translate_codelists.py docs/en/extensions
     # Create a symlink for the current language, so we can reference the
