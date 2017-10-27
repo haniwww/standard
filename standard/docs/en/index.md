@@ -1,6 +1,18 @@
 Open Contracting Data Standard: Documentation
 =============================================
 
+```eval_rst
+.. note:: 
+
+  This version of the OCDS documentation has been built to provide access a custom translation of OCDS prepared by The Mexican Government at the Federal Public Administration.
+
+  This tailors the terminology in the schema to match official Mexican Government terminology. 
+
+  This can be seen on the [reference page](schema/reference/) and through the [release schema viewer](schema/release/) as well as in the [raw schema file](release-schema.json) (JSON).
+
+```
+
+
 Governments around the world spend an estimated US$9.5 trillion through contracts every year. Yet, contracting information is often unavailable for public scrutiny. 
 
 The Open Contracting Data Standard (OCDS) enables disclosure of data and documents at all stages of the contracting process by defining a common data model. It was created to support organizations to increase contracting transparency, and allow deeper analysis of contracting data by a wide range of users.
@@ -16,12 +28,6 @@ The OCDS approach:
 * Common open data publication patterns 
 * Guidance on improving data collection and data quality
 * A growing community of users and range of open source tools
-
-```eval_rst
-.. note:: 
-
-  This is the 1.1 release of OCDS, published on 31st May 2017. Version 1.0 documentation is still available from the version switcher at the bottom left of the page. 
-```
 
 ## About
 
