@@ -432,15 +432,6 @@
           "items": {
             "$ref": "#/definitions/Amendment"
           }
-        },
-        "amendment": {
-          "title": "Amendment",
-          "description": "The use of individual amendment objects has been deprecated. From OCDS 1.1 information should be provided in the amendments array.",
-          "$ref": "#/definitions/Amendment",
-          "deprecated": {
-            "description": "The single amendment object has been deprecated in favour of including amendments in an amendments (plural) array.",
-            "deprecatedVersion": "1.1"
-          }
         }
       },
       "patternProperties": {
@@ -586,15 +577,6 @@
           "items": {
             "$ref": "#/definitions/Amendment"
           }
-        },
-        "amendment": {
-          "title": "Amendment",
-          "description": "The use of individual amendment objects has been deprecated. From OCDS 1.1 information should be provided in the amendments array.",
-          "$ref": "#/definitions/Amendment",
-          "deprecated": {
-            "description": "The single amendment object has been deprecated in favour of including amendments in an amendments (plural) array.",
-            "deprecatedVersion": "1.1"
-          }
         }
       },
       "patternProperties": {
@@ -738,15 +720,6 @@
           "title": "Amendments",
           "items": {
             "$ref": "#/definitions/Amendment"
-          }
-        },
-        "amendment": {
-          "title": "Amendment",
-          "description": "The use of individual amendment objects has been deprecated. From OCDS 1.1 information should be provided in the amendments array.",
-          "$ref": "#/definitions/Amendment",
-          "deprecated": {
-            "description": "The single amendment object has been deprecated in favour of including amendments in an amendments (plural) array.",
-            "deprecatedVersion": "1.1"
           }
         }
       },
@@ -892,19 +865,6 @@
           ],
           "codelist": "milestoneStatus.csv",
           "openCodelist": false
-        },
-        "documents": {
-          "title": "Documents",
-          "description": "List of documents associated with this milestone (Deprecated in 1.1).",
-          "type": "array",
-          "deprecated": {
-            "deprecatedVersion": "1.1",
-            "description": "Inclusion of documents at the milestone level is now deprecated. Documentation should be attached in the tender, award, contract or implementation sections, and titles and descriptions used to highlight the related milestone. Publishers who wish to continue to provide documents at the milestone level should explicitly declare this by using the milestone documents extension."
-          },
-          "items": {
-            "$ref": "#/definitions/Document"
-          },
-          "uniqueItems": true
         }
       },
       "patternProperties": {
@@ -1076,19 +1036,6 @@
             "null"
           ],
           "format": "uri"
-        },
-        "source": {
-          "title": "Data Source",
-          "description": "(Deprecated in 1.1) Used to point either to a corresponding Budget Data Package, or to a machine or human-readable source where users can find further information on the budget line item identifiers, or project identifiers, provided here.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "deprecated": {
-            "deprecatedVersion": "1.1",
-            "description": "The budget data source field was intended to link to machine-readable data about the budget for a contracting process, but has been widely mis-used to provide free-text descriptions of budget providers. As a result, it has been removed from version 1.1. budget/uri can be used to provide a link to machine-readable budget information, and budget/description can be used to provide human-readable information on the budget source."
-          },
-          "format": "uri"
         }
       },
       "patternProperties": {
@@ -1170,33 +1117,6 @@
             "null"
           ],
           "format": "uri"
-        },
-        "amount": {
-          "title": "Amount",
-          "description": "(Deprecated in 1.1. Use transaction.value instead) The value of the transaction. A negative value indicates a refund or correction.",
-          "$ref": "#/definitions/Value",
-          "deprecated": {
-            "description": "This field has been replaced by the `transaction.value` field for consistency with the use of value and amount elsewhere in the standard.",
-            "deprecatedVersion": "1.1"
-          }
-        },
-        "providerOrganization": {
-          "title": "Provider organization",
-          "description": "(Deprecated in 1.1. Use transaction.payer instead.) The Organization Identifier for the organization from which the funds in this transaction originate. Expressed following the Organizational Identifier standard - consult the documentation and the codelist.",
-          "$ref": "#/definitions/Identifier",
-          "deprecated": {
-            "description": "This field has been replaced by the `transaction.payer` field to resolve ambiguity arising from 'provider' being interpreted as relating to the goods or services procured rather than the flow of funds between the parties.",
-            "deprecatedVersion": "1.1"
-          }
-        },
-        "receiverOrganization": {
-          "title": "Receiver organization",
-          "description": "(Deprecated in 1.1. Use transaction.payee instead). The Organization Identifier for the organization which receives the funds in this transaction. Expressed following the Organizational Identifier standard - consult the documentation and the codelist.",
-          "$ref": "#/definitions/Identifier",
-          "deprecated": {
-            "description": "This field has been replaced by the `transaction.payee` field to resolve ambiguity arising from 'receiver' being interpreted as relating to the goods or services procured rather than the flow of funds between the parties.",
-            "deprecatedVersion": "1.1"
-          }
         }
       }
     },
@@ -1218,47 +1138,6 @@
           ],
           "description": "The id of the party being referenced. This must match the id of an entry in the parties section.",
           "title": "Organization ID"
-        },
-        "identifier": {
-          "title": "Primary identifier",
-          "description": "The primary identifier for this organization. Identifiers that uniquely pick out a legal entity should be preferred. Consult the [organization identifier guidance](http://standard.open-contracting.org/{{version}}/{{lang}}/schema/identifiers/) for the preferred scheme and identifier to use.",
-          "deprecated": {
-            "deprecatedVersion": "1.1",
-            "description": "From version 1.1, organizations should be referenced by their identifier and name in a document, and detailed legal identifier information should only be provided in the relevant cross-referenced entry in the parties section at the top level of a release."
-          },
-          "$ref": "#/definitions/Identifier"
-        },
-        "address": {
-          "deprecated": {
-            "deprecatedVersion": "1.1",
-            "description": "From version 1.1, organizations should be referenced by their identifier and name in a document, and address information should only be provided in the relevant cross-referenced entry in the parties section at the top level of a release."
-          },
-          "$ref": "#/definitions/Address",
-          "description": "(Deprecated outside the parties section)",
-          "title": "Address"
-        },
-        "additionalIdentifiers": {
-          "type": "array",
-          "deprecated": {
-            "deprecatedVersion": "1.1",
-            "description": "From version 1.1, organizations should be referenced by their identifier and name in a document, and additional identifiers for an organization should be provided in the relevant cross-referenced entry in the parties section at the top level of a release."
-          },
-          "items": {
-            "$ref": "#/definitions/Identifier"
-          },
-          "title": "Additional identifiers",
-          "uniqueItems": true,
-          "wholeListMerge": true,
-          "description": "(Deprecated outside the parties section) A list of additional / supplemental identifiers for the organization, using the [organization identifier guidance](http://standard.open-contracting.org/{{version}}/{{lang}}/schema/identifiers/). This could be used to provide an internally used identifier for this organization in addition to the primary legal entity identifier."
-        },
-        "contactPoint": {
-          "deprecated": {
-            "deprecatedVersion": "1.1",
-            "description": "From version 1.1, organizations should be referenced by their identifier and name in a document, and contact point information for an organization should be provided in the relevant cross-referenced entry in the parties section at the top level of a release."
-          },
-          "$ref": "#/definitions/ContactPoint",
-          "description": "(Deprecated outside the parties section)",
-          "title": "Contact point"
         }
       },
       "required": [
@@ -1507,37 +1386,6 @@
             "null"
           ],
           "title": "Amending release (identifier)"
-        },
-        "changes": {
-          "title": "Amended fields",
-          "description": "An array change objects describing the fields changed, and their former values. (Deprecated in 1.1)",
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "property": {
-                "title": "Property",
-                "description": "The property name that has been changed relative to the place the amendment is. For example if the contract value has changed, then the property under changes within the contract.amendment would be value.amount. (Deprecated in 1.1)",
-                "type": "string"
-              },
-              "former_value": {
-                "title": "Former Value",
-                "description": "The previous value of the changed property, in whatever type the property is. (Deprecated in 1.1)",
-                "type": [
-                  "string",
-                  "number",
-                  "integer",
-                  "array",
-                  "object",
-                  "null"
-                ]
-              }
-            }
-          },
-          "deprecated": {
-            "description": "A free-text or semi-structured string describing the changes made in each amendment can be provided in the amendment.description field. To provide structured information on the fields that have changed, publishers should provide releases indicating the state of the contracting process before and after the amendment.  ",
-            "deprecatedVersion": "1.1"
-          }
         }
       },
       "patternProperties": {

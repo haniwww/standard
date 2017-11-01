@@ -26,7 +26,7 @@ cd ..
 cp -r standard/assets build
 
 cd standard
-for lang in es fr es_MX; do
+for lang in es_MX; do
     CODELIST_LANG=$lang python schema/utils/translate_codelists.py schema
     CODELIST_LANG=$lang python schema/utils/translate_codelists.py docs/en/extensions
     # Create a symlink for the current language, so we can reference the
