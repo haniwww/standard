@@ -11,4 +11,4 @@
 # The following lines are stable and should follow the above lines to install the correct versions of dependencies.
 
 -e git+https://github.com/rtfd/recommonmark.git@81d7c6f7b37981ac22571dd91a7cc9d24c3e66a1#egg=recommonmark
--e git+https://github.com/open-contracting/standard_theme.git@open_contracting#egg=standard_theme
+-e git+https://github.com/open-contracting/standard_theme.git@new-search#egg=standard_theme
